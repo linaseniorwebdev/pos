@@ -1,0 +1,231 @@
+is_cash_order		:	{
+	type			:	action
+	desc			:	run when an order is complete
+	params			:	object v2Checkout
+	screen			:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+select_customer : {
+	type		:	action,
+	desc		:	run action when selecting a customer
+	params		:	object current selected customer
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+pay_box_footer	:	{
+	type		:	filter
+	desc		:	run filter on pay box footer
+	params		:	''
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+pay_box_loaded 	:	{
+	type		:	action
+	desc		:	trigger when pay box is loaded
+	params		:	void
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+submit_order : {
+	type 	:	action
+	desc	:	run when submiting an order to v2Checkout.cartSubmitOrder()
+	params:	void
+	screen 	:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+reset_cart 		:	{
+	type		:	action,
+	desc		:	run  when cart is reset
+	params		:	v2Checkout
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+before_submit_order	:	{
+	type		:	filter
+	desc		:	let you filter order details
+	params		:	order_details
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+callback_message	:	{
+	type		:	filter
+	desc		:	allow edit callback message after an order is complete
+	params		:	Array [ MessageObject, returned ]
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+test_order_type	:	{
+	type		:	filter
+	desc		:	Allow editing order type condition test
+	params		:	Array [ boolean (current condition test result), returned ]
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+cart_before_item_name  : {
+	type		:	filter
+	desc		:	Let you filter content before item name
+	params		:	default value. A button provided to edit item price
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+cart_item_name : {
+	type		:	filter
+	desc		:	Let you filter item name
+	params		:	object { orignal : name, displayed : name }
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+cart_refreshed  : {
+	type		:	action
+	desc		:	trigger action when cart table is refreshed
+	params		:	v2Checkout object
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+items_metas		: {
+	type		:	filter
+	desc		:	let you add custom meta to each item as object like this { foo : 'bar' }. each item will be added to v2Checkout.CartItems
+	params		:	Array with all item already added. You mush "push" your custom meta return data.push({foo : 'bar'})
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+cart_enable_print : {
+	type		:	'filter',
+	desc		:	'enable print or not. Must return bool
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+check_payment_mean : {
+	type		:	filter
+	desc		:	check current order payment mean
+	params		:	array first has a bool, second has a string (current order payment mean)
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+payment_mean_checked : {
+	type		:	filter
+	desc		:	run when order payment mean is checked
+	params		:	array first has an object "order_details", second has a string (current order payment mean)
+	screen		:	dashboard/nexo/commandes/lists/v2_checkout
+}
+
+// POS v2.1
+
+nexo_payments_types_object : {
+	type		:	filter
+	desc		:	run after paymentType has been loaded
+	params		:	objet paymentType object
+}
+
+allow_payment_edition	:	{
+	type		:	filter
+	desc		:	allow payment edition return an array [ true ]
+	prams		:	array with "true" to allow edition and payment.namespace
+}
+
+process_data	:	{
+	type		:	filter
+	desc		:	let you filter process data (url and type). You'll be able to customize post url for order and post method
+	params		:	object { url : string, type : string }
+}
+
+refresh_cart_values : {
+	type 		:	filter
+	desc 		:	return cart items
+}
+
+add_to_cart  	:	{
+	type 		:	action
+	desc 		:	trigger action
+}
+
+reduce_from_cart	:	{
+	type 		:	action
+	desc 		:	trigger reduce from cart
+}
+
+override_add_item : {
+	type 		:	filter
+	desc 		:	permet de surcharger la fonctionnalité d'ajout de produite avec la méthode "fetchItem"
+}
+
+item_loaded 		:	{
+	type 		:	filter
+	desc 		:	permet de filtre chaque produit récupéré de la boutique
+}
+
+reduce_form_cart : {
+	type 		:	filter,
+	des 		:	permet de filtrer le produit qui est en cours de réduction dans le panier, le paramètre est un object 
+	{
+		barcode : 	int/char
+		proceed : 	boolean // permet de déterminer si la procedure de suppression doit suivre sont cours.
+	}
+}
+
+customers_dropdown :  {
+	type 		:	filter,
+	desc 			:	vous permet de filter la liste des clients.
+}
+
+openPayBox		:	{
+	type 	:	filter
+	desc 	:	permet de déterminer si oui ou non une fenêtre peut s'ouvrir
+} 
+
+history_orderType : {
+	type 	:	filter
+	desc 	:	permet de modifier les types de produits qui peuvent s'afficher sur l'historique des fichiers
+}	
+
+override_open_order : {
+	type 		:	filter
+	desc 		:	permet de déterminer si un script gèrera l'ajout d'une commande en attente sur le panier
+}
+
+hover_item_name 	:	{
+	type 	:	filter,
+	desc 	:	permet dautoriser l'exécution du survol d'élement sur le point de vente
+}
+
+order_history_cart_busy : {
+	type 	:	action,
+	desc 	:	'permet d'exécuter un action avant qu'une commande ne soit chargée
+}
+
+open_pos_new_item 	:	{
+	type 	:	action,
+	desc 	:	permet d'exécuter un action lorsque la fenêtre de création de produit rapide s'ouvre
+}
+add_inline_item 	:	{
+	type 	:	action,
+	desc 	:	permet d'exécuter une action lors de l'ajout de produit inline
+}
+close_add_inline_item 	:	{
+	type 	:	action,
+	desc 	:	permet d'exécuter une action lorsque la fenêtre d'ajout de produit sur la ligne se ferme
+}
+close_paybox 	:	{
+	type 	:	action
+	desc 	:	Permet d'exécuter une action lorsque la fenêtre de paiement se ferme
+}
+
+pos_loaded_order : {
+	type 	:	action,
+	desc 	:	contient l'objet ayant les détails de la commande en cours d'édition
+}
+
+nexo_open_save_box : {
+	type 	:	filter
+	desc 	:	permet de contrôler l'affichage de la boite de sauvegarde des commandes
+}
+
+raw_customers_json : {
+	type : filter
+	desc : contient l'objet chargé durant la modification des clients qui est transformé sous forme de fichier JSON
+}
+
+pos_loaded : {
+	type: action,
+	desc: when the pos has loaded
+}

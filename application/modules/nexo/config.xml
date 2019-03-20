@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<application>
+	<namespace>nexo</namespace>
+	<name>NexoPOS</name>
+	<description>Nexo by Tendoo Team</description>
+	<version>3.14.18</version>
+	<main>main.php</main>
+	<language>language/</language>
+	<dependencies>
+		<module namespace="grocerycrud">Grocery Crud</module>
+	</dependencies>
+</application>

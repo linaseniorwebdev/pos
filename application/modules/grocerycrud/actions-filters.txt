@@ -1,0 +1,91 @@
+filter	:	grocery_crud_list_item_class,
+During items listing, send current row class and current row array
+
+grocery_filter_row {
+	type :	filtet
+	desc 	:	filtre les lignes des entrées
+}
+
+grocery_callback_update	{
+	type : action
+	desc : callback before update
+}
+
+grocery_callback_insert	{
+	type : action
+	desc : callback before update
+}
+
+grocery_add_url {
+	type : filter
+	desc : change default add url
+}
+
+grocery_add_text {
+	type : filter
+	desc : change default add text
+}
+
+grocery_filter_actions {
+	type : filter
+	desc : filter custom grocery crud actions
+}
+
+grocery_filter_delete_button {
+	type : filter
+	desc : filter delete button
+}
+
+grocery_filter_edit_button {
+	type : filter
+	desc : filter edit button
+	params : {
+		string : button string,
+		object	: row object
+		string : button text
+		string : button subject
+	}
+}
+
+grocery_row_actions_output {
+	type : filter
+	desc : filter row dom at end
+	params : {
+		$row, $this->l('list_edit'), $subject
+	}
+}
+
+grocery_registered_fields {
+	type 	:	filter
+	desc	:	filter registered fields
+	params	:	$fields, an array with object {
+		field_name	:	'',
+		display_as	:	'',
+		description	:	''
+	}
+}
+
+grocery_edit_fields :  {
+	type 	:	filter
+	desc	:	return editable field for grocerycrud
+	params	:	$fields, an array with object {
+		field_name	:	'',
+		display_as	:	'',
+		description	:	''
+	}
+}
+
+grocery_required_fields	:	{
+	type	:	filter
+	desc	:	return required field for form validation
+	params 	:	array( 'FIELD_NAME', ... )
+}
+
+grocery_header_buttons : {
+	type 	:	filter,
+	desc 	:	let you add more button on table head 
+	params 	:	[
+		text 	:	'foo',
+		url 	:	'http://bar.com'
+	]
+}

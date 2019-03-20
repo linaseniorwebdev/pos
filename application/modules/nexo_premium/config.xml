@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<application>
+	<name>Nexo Premium</name>
+	<namespace>nexo_premium</namespace>
+	<author>Blair Jersyer</author>
+	<description>Bring premium feature to nexo, check out http://nexopos.com</description>
+	<version>2.7.8</version>
+	<main>nexo_premium.php</main>
+	<language>/language</language>
+</application>

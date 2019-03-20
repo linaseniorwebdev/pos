@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: •\n"
+"POT-Creation-Date: 2018-08-08 23:59+0100\n"
+"PO-Revision-Date: 2018-08-08 23:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_s\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/angular/register/directives/stripe-payment.php:9
+msgid "Stripe Payment"
+msgstr "Ödeme Türü"
+
+#: inc/angular/register/directives/stripe-payment.php:17
+msgid "Montant du paiement"
+msgstr "Ödeme Tutarı"
+
+#: inc/angular/register/directives/stripe-payment.php:23
+msgid "Définir un montant"
+msgstr "Bir miktar ayarlama"
+
+#: inc/angular/register/directives/stripe-payment.php:43
+msgid ""
+"Vous devez facturer une carte avec Stripe, avant de l'ajouter comme paiement"
+msgstr "Ödeme olarak eklemeden önce kart çeşidini girmeniz gerekir"
+
+#: inc/filters.php:8 nexo-payments-gateway.php:25 nexo-payments-gateway.php:29
+#: views/dashboard-footer.php:13
+msgid "Stripe"
+msgstr "Şerit"
+
+#: inc/filters.php:21
+msgid "Payment Gateway"
+msgstr "Ödeme Türü"
+
+#: views/angular-paybox-controller.php:13 views/dashboard-footer.php:46
+#, fuzzy
+msgid "Attention"
+msgstr "Dikkat"
+
+#: views/angular-paybox-controller.php:13
+msgid "Le montant spécifié est incorrecte."
+msgstr "Belirtilen miktar doğru değil."
+
+#: views/angular-paybox-controller.php:28
+msgid "Paiement d'une commande"
+msgstr "Siparişin ödenmesi"
+
+#: views/angular-paybox-controller.php:29
+#, php-format
+msgid "Vous venez d'effectuer un paiement dans la boutique %s. Merci"
+msgstr "Bu %s. mağazadan ödeme yaptığınız için teşekkür ederiz"
+
+#: views/angular-paybox-controller.php:54
+msgid "Veuillez patienter"
+msgstr "Lütfen bekleyiniz"
+
+#: views/angular-paybox-controller.php:54
+msgid "Paiement en cours..."
+msgstr "Ödeme Yapılıyor ..."
+
+#: views/angular-paybox-controller.php:66
+msgid "Paiement effectué"
+msgstr "Ödeme yapıldı"
+
+#: views/angular-paybox-controller.php:66
+msgid "Le paiement a été effectué."
+msgstr "Ödeme Yapıldı."
+
+#: views/angular-paybox-controller.php:82
+#, fuzzy
+msgid "Une erreur s'est produite"
+msgstr "Bir Hata Oluştu"
+
+#: views/angular-paybox-controller.php:82
+msgid ""
+"Le paiement n'a pu être effectuée. Une erreur s'est produite durant la "
+"facturation de la carte de crédit.<br>Le serveur à retourner cette erreur : "
+msgstr ""
+"Ödeme yapılmadı. Bu hata  kredi kartı girişi sırasında meydana geldi. <br> "
+"Sunucu bu hatayı döndürdü : "
+
+#: views/dashboard-footer.php:36
+#, fuzzy
+msgid "Facturer une carte"
+msgstr "Şarj kartı"
+
+#: views/dashboard-footer.php:46
+msgid ""
+"Vous ne pouvez pas modifier un paiement déjà effectué, car une carte a déjà "
+"été débitée."
+msgstr "Yeni yapılmış ödemeyi değiştiremezsiniz .Kart işlemi yapıldı."
+
+#: views/gateway-settings.php:19
+#, fuzzy
+msgid "Réglages Stripe"
+msgstr "Şerit ayarları"
+
+#: views/gateway-settings.php:26
+msgid "Sauvegarder les réglages"
+msgstr "Ayarları kaydet"
+
+#: views/gateway-settings.php:34
+#, fuzzy
+msgid "Activer Stripe"
+msgstr "Şerit etkinleştirmek"
+
+#: views/gateway-settings.php:36
+msgid "Non"
+msgstr "Yok"
+
+#: views/gateway-settings.php:37
+#, fuzzy
+msgid "Oui"
+msgstr "Evet"
+
+#: views/gateway-settings.php:39
+msgid ""
+"Désactiver Stripe empêchera au ressource de ce dernier de se charger dans "
+"l'interface de la caisse."
+msgstr ""
+"Şerit devre dışı bırakılması, ikincisi kaynağının Checkout arabirimine "
+"yüklenmesini engeller."
+
+#: views/gateway-settings.php:46
+#, fuzzy
+msgid "Publishable Key"
+msgstr "Yayınlanabilir anahtar"
+
+#: views/gateway-settings.php:47
+#, php-format
+msgid ""
+"Récupérez les informations de votre \"publishable key\" sur votre compte <a "
+"href=\"%s\">Stripe</a>."
+msgstr ""
+"<a href=\"%s\">Şerit</a>hesabınızdan \"yayınlanabilir anahtar\" bilgisi alın."
+
+#: views/gateway-settings.php:54
+msgid "Secret Key"
+msgstr "Gizli Anahtar"
+
+#: views/gateway-settings.php:55
+#, php-format
+msgid ""
+"Récupérez les informations de votre clé secrete sur votre compte <a href=\"%s"
+"\">Stripe</a>."
+msgstr ""
+"Gizli anahtar bilgilerinizi <a href=\"%s\"> Şerit </a> hesabınızdan alın."
+
+#~ msgid ""
+#~ "Türü Devre Dışı Bırakma, kaynağın nakit arabirimine yüklenmesinengeller."
+#~ msgstr ""
+#~ "Şeridi devre dışı bırakmak, kaynağın nakit arayüzüne yüklenmesini "
+#~ "önleyecektir."

@@ -1,0 +1,1779 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tendoo CMS\n"
+"POT-Creation-Date: 2016-11-26 16:34+0100\n"
+"PO-Revision-Date: 2016-11-26 16:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tendoo Dev Team <carlosjohnsonluv2004@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: _e;__;translate\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: views\n"
+"X-Poedit-SearchPath-1: controllers\n"
+
+#: controllers/Dashboard.php:86
+msgid "Upload a zip file"
+msgstr "Envoyer un fichier ZIP"
+
+#: controllers/Dashboard.php:91
+#, fuzzy
+msgid ""
+"An error occured during module installation. There was a file conflict "
+"during module installation process.<br>This file seems to be already "
+"installed : "
+msgstr ""
+"Une erreur est survenue lors de l'installation du module. Il y avait un "
+"conflit de fichiers pendant le processus d'installation du module. <br> Ce "
+"fichier semble être déjà installé:"
+
+#: controllers/Dashboard.php:94
+#, fuzzy, php-format
+msgid "Module List &mdash; %s"
+msgstr "Liste de Module -%s"
+
+#: controllers/Dashboard.php:107
+#, fuzzy
+msgid "Back to modules list"
+msgstr "Retour à la liste des modules"
+
+#: controllers/Dashboard.php:127
+#, fuzzy, php-format
+msgid "Add a new extension &mdash; %s"
+msgstr "Ajouter une nouvelle extension -%s"
+
+#: controllers/Dashboard.php:205
+#, fuzzy, php-format
+msgid "Migration &mdash; %s"
+msgstr "Migration &mdash; %s"
+
+#: controllers/Dashboard.php:222
+#, fuzzy
+msgid "Unknow module"
+msgstr "Module de unknow"
+
+#: controllers/Dashboard.php:252 views/dashboard/modules/migrate.php:73
+#, fuzzy
+msgid "Migration done."
+msgstr "Migration effectuée."
+
+#: controllers/Dashboard.php:259
+msgid "File not found or incorrect executable provided."
+msgstr "Fichier introuvable ou executable incorrect."
+
+#: controllers/Dashboard.php:264
+msgid "An error occured"
+msgstr "Une erreur s’est produite."
+
+#: controllers/Dashboard.php:271
+#, fuzzy
+msgid "Migration File not found."
+msgstr "Migration de fichier non trouvé."
+
+#: controllers/Dashboard.php:438
+#, fuzzy, php-format
+msgid "Updating... &mdash; %s"
+msgstr "Mise à jour ... -%s"
+
+#: controllers/Dashboard.php:450
+#, php-format
+msgid "Update Center &mdash; %s"
+msgstr "Centre des mises à jour -%s"
+
+#: controllers/Dashboard.php:475
+#, fuzzy, php-format
+msgid "About &mdash; %s"
+msgstr "À propos -%s"
+
+#: controllers/Do_setup.php:55
+#, fuzzy, php-format
+msgid "Welcome Page &mdash; %s"
+msgstr "Page d'accueil -%s"
+
+#: controllers/Do_setup.php:67 views/do-setup/database.php:19
+#, fuzzy
+msgid "Host Name"
+msgstr "Nom de l'hôte"
+
+#: controllers/Do_setup.php:68 views/do-setup/database.php:23
+#, fuzzy
+msgid "User Name"
+msgstr "Nom d'utilisateur"
+
+#: controllers/Do_setup.php:69 views/do-setup/database.php:31
+#, fuzzy
+msgid "Database Name"
+msgstr "Nom de la base de données"
+
+#: controllers/Do_setup.php:70 views/do-setup/database.php:39
+#, fuzzy
+msgid "Database Driver"
+msgstr "Database Driver"
+
+#: controllers/Do_setup.php:71 views/do-setup/database.php:35
+#, fuzzy
+msgid "Database Prefix"
+msgstr "Préfixe de base de données :"
+
+#: controllers/Do_setup.php:90
+#, fuzzy, php-format
+msgid "Database config &mdash; %s"
+msgstr "Base de données config -%s"
+
+#: controllers/Do_setup.php:107 views/dashboard/settings/body.php:31
+#: views/do-setup/site.php:15
+#, fuzzy
+msgid "Site Name"
+msgstr "Nom du site"
+
+#: controllers/Do_setup.php:122
+#, fuzzy, php-format
+msgid "Site & Master account &mdash; %s"
+msgstr "Site & Master compte -%s"
+
+#: controllers/Oauth.php:33
+msgid "Scopes"
+msgstr "Portée"
+
+#: controllers/Oauth.php:49
+#, php-format
+msgid "%s &mdash; Request permissions"
+msgstr "%s - Demander des autorisations"
+
+#: controllers/Page_403.php:30
+msgid "You don't have access to this page."
+msgstr "Vous n'avez pas accés à cette page."
+
+#: controllers/Sign_in.php:33
+#, fuzzy
+msgid "Submit button"
+msgstr "Bouton Valider"
+
+#: controllers/Sign_in.php:52
+#, fuzzy, php-format
+msgid "Sign In &mdash; %s"
+msgstr "Connexion -%s"
+
+#: controllers/Sign_in.php:67
+#, fuzzy
+msgid "User Email"
+msgstr "Email de l’utilisateur"
+
+#: controllers/Sign_in.php:75
+#, fuzzy, php-format
+msgid "Recover Password &mdash; %s"
+msgstr "Récupérer mot de passe -%s"
+
+#: controllers/Sign_up.php:41
+#, php-format
+msgid "Sign Up &mdash; %s"
+msgstr "Inscription -%s"
+
+#: views/dashboard/error/404.php:12
+#, fuzzy
+msgid "Error : 404"
+msgstr "Erreur 404"
+
+#: views/dashboard/error/404.php:19
+#, fuzzy
+msgid "Oops ! An error occured"
+msgstr "Oups ! Une erreur s'est produite"
+
+#: views/dashboard/error/404.php:20
+#, fuzzy
+msgid "404"
+msgstr "404"
+
+#: views/dashboard/error/404.php:21
+#, fuzzy
+msgid ""
+"We could not locate this page. You can go back to the dashboard and try again"
+msgstr ""
+"Nous ne pouvions pas trouver cette page. Vous pouvez retourner à la planche "
+"de bord et essayez à nouveau"
+
+#: views/dashboard/footer.php:11
+#, fuzzy
+msgid "Tendoo"
+msgstr "Tendoo"
+
+#: views/dashboard/footer.php:13
+#, php-format
+msgid "Thank you for using Tendoo CMS &mdash; %s in %s seconds"
+msgstr "Merci d'utiliser Tendoo CMS &mdash; %s en %s secondes"
+
+#: views/dashboard/gui/gui-items.php:324
+#, fuzzy
+msgid "Empty table"
+msgstr "Table vide"
+
+#: views/dashboard/horizontal-menu.php:49
+#, fuzzy, php-format
+msgid "You have %s notices"
+msgstr "Vous avez%s avis"
+
+#: views/dashboard/horizontal-menu.php:113
+msgid "Profile"
+msgstr "Profil"
+
+#: views/dashboard/horizontal-menu.php:114
+msgid "Sign Out"
+msgstr "Fermer la session"
+
+#: views/dashboard/modules/after_install.php:12
+#: views/dashboard/modules/install.php:12
+#: views/dashboard/modules/migrate.php:12
+msgid "Add new extension using ZIP file"
+msgstr "Ajouter un nouveau module via un fichier ZIP"
+
+#: views/dashboard/modules/after_install.php:17
+#, fuzzy
+msgid "Enable the extension"
+msgstr "Activer l'extension"
+
+#: views/dashboard/modules/after_install.php:28
+#: views/dashboard/modules/install.php:28
+#, fuzzy
+msgid "Choose the extension zip file"
+msgstr "Choisissez le fichier zip d'extension"
+
+#: views/dashboard/modules/install.php:17
+#, fuzzy
+msgid "Add the extension"
+msgstr "Ajouter l'extension"
+
+#: views/dashboard/modules/list-dom.php:16
+#, fuzzy
+msgid "Tendoo Extension"
+msgstr "Tendoo Extension"
+
+#: views/dashboard/modules/list-dom.php:45
+#, fuzzy
+msgid "Remove"
+msgstr "Enveler"
+
+#: views/dashboard/modules/list-dom.php:50
+#, fuzzy
+msgid "Extract"
+msgstr "Extraire"
+
+#: views/dashboard/modules/list-dom.php:70
+#, fuzzy
+msgid "Do you really want to delete this module ?"
+msgstr "Souhaitez-vous réellement supprimer ce véhicule?"
+
+#: views/dashboard/modules/list.php:12
+#, fuzzy
+msgid "Module List"
+msgstr "Liste des modules"
+
+#: views/dashboard/modules/migrate.php:43
+#, fuzzy
+msgid "Migration has started"
+msgstr "Migration a commencé"
+
+#: views/dashboard/modules/migrate.php:57
+#, fuzzy
+msgid "Migrating to"
+msgstr "Migration vers"
+
+#: views/dashboard/modules/migrate.php:62
+#, fuzzy
+msgid "done."
+msgstr "terminé."
+
+#: views/dashboard/modules/migrate.php:67
+#, fuzzy
+msgid "An error occured :"
+msgstr "Une erreur est apparue"
+
+#: views/dashboard/modules/migrate.php:76
+#, fuzzy
+msgid "Go back to modules"
+msgstr "Revenir aux modules"
+
+#: views/dashboard/modules/migrate.php:84
+#, fuzzy
+msgid "No migration content available"
+msgstr "Aucun contenu de migration disponible"
+
+#: views/dashboard/modules/migrate.php:96
+#, fuzzy
+msgid "Migrate not available for this module."
+msgstr "Ne migrez pas disponible pour ce module."
+
+#: views/dashboard/settings/body.php:16
+#, fuzzy
+msgid "General Settings"
+msgstr "Paramètres Généraux"
+
+#: views/dashboard/settings/body.php:22 views/do-setup/database.php:50
+#, fuzzy
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: views/dashboard/settings/body.php:32
+#, fuzzy
+msgid "Enter your site name"
+msgstr "Entrer votre nom"
+
+#: views/dashboard/settings/body.php:38
+#, fuzzy
+msgid "Site Description"
+msgstr "Description du site"
+
+#: views/dashboard/settings/body.php:39
+#, fuzzy
+msgid "Enter your site description"
+msgstr "Entrez la Description"
+
+#: views/dashboard/settings/body.php:45
+#, fuzzy
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: views/dashboard/settings/body.php:46
+#, fuzzy
+msgid "Enter your site timezone"
+msgstr "Entrez votre site fuseau horaire"
+
+#: views/dashboard/settings/body.php:54
+#, fuzzy
+msgid "Language"
+msgstr "Langue"
+
+#: views/dashboard/settings/body.php:55
+#, fuzzy
+msgid "Choose a language"
+msgstr "Choisir une langue"
+
+#: views/dashboard/settings/body.php:69
+#, fuzzy
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: views/dashboard/settings/body.php:75
+#, fuzzy
+msgid "Save Advanced"
+msgstr "Enregistrer les réglages avancés"
+
+#: views/dashboard/settings/body.php:84
+#, fuzzy
+msgid "Open registration"
+msgstr "Ouvrir les inscriptions"
+
+#: views/dashboard/settings/body.php:85
+msgid "Open Registration ?"
+msgstr "Ouvrir les inscriptions"
+
+#: views/dashboard/settings/body.php:87 views/dashboard/settings/body.php:97
+#: views/dashboard/settings/body.php:110
+#, fuzzy
+msgid "No"
+msgstr "Non"
+
+#: views/dashboard/settings/body.php:88 views/dashboard/settings/body.php:98
+#: views/dashboard/settings/body.php:111
+#, fuzzy
+msgid "Yes"
+msgstr "Oui"
+
+#: views/dashboard/settings/body.php:95
+msgid "Require validation"
+msgstr "Exiger la validation"
+
+#: views/dashboard/settings/body.php:100
+msgid ""
+"Each new account will have to check the verification email in order to "
+"validate their account."
+msgstr ""
+"Chaque nouveau compte devra vérifier l'e-mail de vérification afin de "
+"valider leur compte."
+
+#: views/dashboard/settings/body.php:106
+#, fuzzy
+msgid "Enable Developer mode ?"
+msgstr "Activer le mode développeur?"
+
+#: views/dashboard/settings/body.php:107
+#, fuzzy
+msgid "Enable developer mode"
+msgstr "Activer le mode développeur"
+
+#: views/dashboard/settings/body.php:108
+#, fuzzy
+msgid "Tools like module package will be enabled."
+msgstr "Des outils tels que des paquets de modules seront activées."
+
+#: views/dashboard/update/core-content.php:6
+#, fuzzy, php-format
+msgid "Unknow Release : %s"
+msgstr "Inconnu sortie:%s"
+
+#: views/dashboard/update/core-content.php:8
+#: views/dashboard/update/core-content.php:16
+#, fuzzy
+msgid "Update has been aborded...!!!"
+msgstr "Mise à jour a été aborded ... !!!"
+
+#: views/dashboard/update/core-content.php:14
+#, fuzzy, php-format
+msgid "Old Release : %s"
+msgstr "Vieux sortie:%s"
+
+#: views/dashboard/update/core-content.php:29
+#, fuzzy
+msgid "Downloading Zip file..."
+msgstr "Téléchargement fichier Zip ..."
+
+#: views/dashboard/update/core-content.php:37
+#, fuzzy
+msgid "An error occured during download..."
+msgstr "Une erreur est survenue lors du téléchargement ..."
+
+#: views/dashboard/update/core-content.php:48
+#, fuzzy
+msgid "Extracting the new release..."
+msgstr "Extraire la nouvelle version ..."
+
+#: views/dashboard/update/core-content.php:56
+#: views/dashboard/update/core-content.php:76
+#, fuzzy
+msgid "An error occured during extraction..."
+msgstr "Une erreur est survenue lors de l'extraction ..."
+
+#: views/dashboard/update/core-content.php:67
+#, fuzzy
+msgid "Installing the new release..."
+msgstr "Installation de la nouvelle version ..."
+
+#: views/dashboard/update/home-content.php:7
+#, fuzzy, php-format
+msgid "Tendoo CMS : %s is available"
+msgstr "Tendoo CMS:%s est disponible"
+
+#: views/dashboard/update/home-content.php:12
+#, fuzzy
+msgid "Click Here to Update"
+msgstr "Cliquez ici pour mettre à jour"
+
+#: views/dashboard/update/home-content.php:18
+#, fuzzy
+msgid "You're up to date"
+msgstr "Votre version est à jour !"
+
+#: views/do-setup/database.php:4 views/do-setup/index.php:4
+#: views/do-setup/site.php:4 views/oauth/body.php:12 views/sign-in/body.php:14
+#: views/sign-in/recovery.php:14 views/sign-up/body.php:5
+#, fuzzy
+msgid "Tendoo CMS"
+msgstr "Tendoo CMS"
+
+#: views/do-setup/database.php:8
+#, fuzzy
+msgid ""
+"Please enter your database details in order to proceed to installation. "
+msgstr ""
+"S'il vous plaît entrer vos coordonnées de base de données afin de procéder à "
+"l'installation."
+
+#: views/do-setup/database.php:27
+#, fuzzy
+msgid "User Password"
+msgstr "Mot de passe de l'utilisateur"
+
+#: views/do-setup/database.php:40
+#, fuzzy
+msgid "Select database driver"
+msgstr "Choisir pilote de base de données"
+
+#: views/do-setup/database.php:41
+#, fuzzy
+msgid "MySQLi"
+msgstr "MySQLi"
+
+#: views/do-setup/index.php:8
+msgid ""
+"Thank for having chosen Tendoo to host your project. Here is the "
+"installation wizard. This wizard has 2 more pages : Database configuration "
+"and Site configuration. If you're ready, let's go !!!"
+msgstr ""
+"Merci d'avoir choisi Tendoo pour votre projet. Voici l'assistant "
+"d'installation. Cet assistant a 2 pages supplémentaires : la configuration "
+"de base de données et la configuration du site. Si vous êtes prêt, allons-"
+"y !!!"
+
+#: views/do-setup/index.php:13 views/do-setup/site.php:19
+msgid "Select your language"
+msgstr "Choisissez votre langue"
+
+#: views/do-setup/index.php:32
+#, fuzzy
+msgid "Define Database configuration"
+msgstr "Définir la configuration de base de données"
+
+#: views/do-setup/site.php:8
+#, fuzzy
+msgid "Define site settings"
+msgstr "Définir les paramètres du site"
+
+#: views/do-setup/site.php:41
+#, fuzzy
+msgid "Continue to dashboard"
+msgstr "Continuer vers le panneau de modération"
+
+#: views/oauth/body.php:15
+msgid "Permission request"
+msgstr "Demande d'autorisation"
+
+#: views/oauth/body.php:46
+msgid "Callback url is not defined."
+msgstr "L'URL de retour n'est pas définie"
+
+#: views/oauth/body.php:48
+msgid "One or two permissions are not available."
+msgstr "Un ou deux autorisations ne sont pas disponibles."
+
+#: views/oauth/body.php:53
+msgid "Allow"
+msgstr "Autoriser"
+
+#: views/oauth/body.php:54
+msgid "Refuse"
+msgstr "Refuser"
+
+#: views/sign-in/body.php:36 views/sign-up/body.php:20
+#, fuzzy
+msgid "I Lost My Password"
+msgstr "Mot de passe oublié"
+
+#: views/sign-in/body.php:42 views/sign-in/recovery.php:35
+#, fuzzy
+msgid "Sign Up"
+msgstr "Inscrivez-vous"
+
+#: views/sign-in/recovery.php:31
+#, fuzzy
+msgid "Sign In"
+msgstr "Fermer la session"
+
+#: views/sign-up/body.php:10
+#, fuzzy
+msgid "Sign up to"
+msgstr "Inscrivez-vous pour"
+
+#: views/sign-up/body.php:24
+#, fuzzy
+msgid "I Already Have An Account"
+msgstr "J'ai déjà un compte"
+
+#, fuzzy
+#~ msgid "An error occured : %s"
+#~ msgstr "Une erreur est apparue"
+
+#, fuzzy
+#~ msgid "Account Verification"
+#~ msgstr "Vérification de compte"
+
+#, fuzzy
+#~ msgid "Your verification code is: "
+#~ msgstr "Votre code de vérification est:"
+
+#, fuzzy
+#~ msgid ""
+#~ " You can also click on (or copy and paste) the following link\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Vous pouvez également cliquer sur (ou de copier et coller) le lien suivant"
+#~ "%s"
+
+#, fuzzy
+#~ msgid "Reset Password"
+#~ msgstr "Réinitialiser le Mot de Passe"
+
+#, fuzzy
+#~ msgid ""
+#~ "To reset your password click on (or copy and paste in your browser "
+#~ "address bar) the link below:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Pour réinitialiser votre mot de passe cliquez sur (ou de copier et coller "
+#~ "dans votre navigateur barre d'adresse) le lien ci-dessous:%s"
+
+#, fuzzy
+#~ msgid "Successful Pasword Reset"
+#~ msgstr "Réinitialiser Pasword réussie"
+
+#, fuzzy
+#~ msgid "Your password has successfully been reset. Your new password is : "
+#~ msgstr ""
+#~ "Votre mot de passe a été réinitialisé avec succès. Votre nouveau mot de "
+#~ "passe est:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Email address already exists on the system. If you forgot your password, "
+#~ "you can click the link below."
+#~ msgstr ""
+#~ "Adresse e-mail existe déjà sur le système. Si vous avez oublié votre mot "
+#~ "de passe, vous pouvez cliquer sur le lien ci-dessous."
+
+#, fuzzy
+#~ msgid "Invalid e-mail address"
+#~ msgstr "Adresse e-mail non valide"
+
+#, fuzzy
+#~ msgid "Invalid password"
+#~ msgstr "Mot de passe incorrect"
+
+#, fuzzy
+#~ msgid "Invalid Username"
+#~ msgstr "Nom d'utilisateur non valide."
+
+#, fuzzy
+#~ msgid "Username required"
+#~ msgstr "Nom d’utilisateur requis :"
+
+#, fuzzy
+#~ msgid "Sorry, you do not have access to the resource you requested."
+#~ msgstr ""
+#~ "Désolé, vous ne devez pas l'accès à la ressource que vous avez demandé."
+
+#, fuzzy
+#~ msgid "E-mail Address and Password do not match."
+#~ msgstr "Adresse E-mail et mot de passe ne correspondent pas."
+
+#, fuzzy
+#~ msgid ""
+#~ "You have exceeded your login attempts, your account has now been locked."
+#~ msgstr ""
+#~ "Vous avez dépassé vos tentatives de connexion, votre compte a été bloqué."
+
+#, fuzzy
+#~ msgid "Sorry, the reCAPTCHA text entered was incorrect."
+#~ msgstr "Désolé, le texte reCAPTCHA entré est incorrect."
+
+#, fuzzy
+#~ msgid "User does not exist"
+#~ msgstr "L’utilisateur n’existe pas"
+
+#, fuzzy
+#~ msgid ""
+#~ "Your account has not been verified. Please check your e-mail and verify "
+#~ "your account."
+#~ msgstr ""
+#~ "Votre compte n'a pas été vérifiée. S'il vous plaît vérifier votre e-mail "
+#~ "et vérifier votre compte."
+
+#, fuzzy
+#~ msgid "Group does not exist"
+#~ msgstr "Ce groupe n’existe pas"
+
+#, fuzzy
+#~ msgid "It is not possible to send a Message to yourself."
+#~ msgstr "Il est impossible d'envoyer un message à vous-même."
+
+#, fuzzy
+#~ msgid "Private Message not found"
+#~ msgstr "Message Privé introuvable"
+
+#, fuzzy
+#~ msgid "User is already member of group"
+#~ msgstr "L'utilisateur est déjà membre du groupe"
+
+#, fuzzy
+#~ msgid "Group name already exists"
+#~ msgstr "Le nom du groupe existe déjà."
+
+#, fuzzy
+#~ msgid "Permission name already exists"
+#~ msgstr "Nom d'autorisation existe déjà"
+
+#, fuzzy
+#~ msgid "The group has been updated"
+#~ msgstr "Le groupe a été mis à jour"
+
+#, fuzzy
+#~ msgid "User settings's has been updated."
+#~ msgstr "Paramètres utilisateur de a été mis à jour."
+
+#, fuzzy
+#~ msgid "The user has been deleted."
+#~ msgstr "L’utilisateur a été supprimé."
+
+#, fuzzy
+#~ msgid ""
+#~ "The new password cannot match the old one, please use another password."
+#~ msgstr ""
+#~ "Le nouveau mot de passe ne peut pas correspondre à l'ancien, s'il vous "
+#~ "plaît utiliser un autre mot de passe."
+
+#, fuzzy
+#~ msgid "Your old password is not correct."
+#~ msgstr "Votre ancien mot de passe n’est pas correct."
+
+#, fuzzy
+#~ msgid "A group with this name already exists. Please choose another name."
+#~ msgstr ""
+#~ "Un groupe portant ce nom existe déjà. S'il vous plaît choisir un autre "
+#~ "nom."
+
+#, fuzzy
+#~ msgid "Group has been created."
+#~ msgstr "Le groupe a été créé."
+
+#, fuzzy
+#~ msgid "This group does'nt exists or has been deleted."
+#~ msgstr "Ce groupe does'nt existe ou a été supprimé."
+
+#, fuzzy
+#~ msgid "Unknow group."
+#~ msgstr "Inconnu groupe."
+
+#, fuzzy
+#~ msgid "Group has been updated."
+#~ msgstr "Le groupe a été mis à jour."
+
+#, fuzzy
+#~ msgid "Unknow taxonomy given."
+#~ msgstr "Taxonomie Unknow donné."
+
+#, fuzzy
+#~ msgid "Incorrect Query parent given."
+#~ msgstr "Mauvaise parent requête donnée."
+
+#, fuzzy
+#~ msgid "Incorrect meta given."
+#~ msgstr "Mauvaise méta donnée."
+
+#, fuzzy
+#~ msgid "An error occured during title parsing."
+#~ msgstr "Une erreur est survenue lors de l'analyse titre."
+
+#, fuzzy
+#~ msgid "Unknow custom query."
+#~ msgstr "Inconnu requête personnalisée."
+
+#, fuzzy
+#~ msgid "Custom query saved."
+#~ msgstr "Requête personnalisée sauvé."
+
+#, fuzzy
+#~ msgid "Unknow key for custom query."
+#~ msgstr "Inconnu clé pour requête personnalisée."
+
+#, fuzzy
+#~ msgid "Custom Query deleted"
+#~ msgstr "Requête personnalisée supprimé"
+
+#, fuzzy
+#~ msgid "Unknow taxonomy to set as parent."
+#~ msgstr "Taxonomie Unknow à définir comme parent."
+
+#, fuzzy
+#~ msgid "taxonomy has been set."
+#~ msgstr "taxonomie a été fixé."
+
+#, fuzzy
+#~ msgid "Taxonmy already exists."
+#~ msgstr "Taxonmy existe déjà."
+
+#, fuzzy
+#~ msgid "Unknow taxonomy."
+#~ msgstr "Taxonomie Inconnu."
+
+#, fuzzy
+#~ msgid "Taxonomy can't be his own parent."
+#~ msgstr "Taxonomie ne peut pas être son propre parent."
+
+#, fuzzy
+#~ msgid "Taxonomy has been deleted."
+#~ msgstr "Taxonomie a été supprimé."
+
+#, fuzzy
+#~ msgid "Can't delete the latest taxonomy."
+#~ msgstr "Vous ne pouvez pas supprimer la dernière taxonomie."
+
+#, fuzzy
+#~ msgid "Taxonomy not found or bound."
+#~ msgstr "Taxonomie introuvable ou lié."
+
+#, fuzzy
+#~ msgid "Comment submited."
+#~ msgstr "Commentaire submited."
+
+#, fuzzy
+#~ msgid "Unknow custom taxonomy."
+#~ msgstr "Inconnu taxonomie personnalisée."
+
+#, fuzzy
+#~ msgid "Comment has been deleted."
+#~ msgstr "Commentaire a été supprimé."
+
+#, fuzzy
+#~ msgid "Unknow status."
+#~ msgstr "État Inconnu."
+
+#, fuzzy
+#~ msgid "Comment edited."
+#~ msgstr "Commentaire édité."
+
+#, fuzzy
+#~ msgid "Unknow comment."
+#~ msgstr "Inconnu commentaire."
+
+#, fuzzy
+#~ msgid "Database has been installed."
+#~ msgstr "Base de données a été installée."
+
+#, fuzzy
+#~ msgid "Tendoo can't access to the database."
+#~ msgstr "Tendoo ne peut pas accéder à la base de données."
+
+#, fuzzy
+#~ msgid "Tendoo cannot connect to your database host."
+#~ msgstr "Tendoo peut pas se connecter à votre hôte de base de données."
+
+#, fuzzy
+#~ msgid "An error occured."
+#~ msgstr "Une erreur est survenue"
+
+#, fuzzy
+#~ msgid "An unexpected error occured."
+#~ msgstr "Une erreur inconnue s’est produite"
+
+#, fuzzy
+#~ msgid "Access Denied."
+#~ msgstr "Accès refusé."
+
+#, fuzzy
+#~ msgid "Option was successfully saved."
+#~ msgstr "Option a été enregistrée avec succès."
+
+#, fuzzy
+#~ msgid "Sign in to start your session"
+#~ msgstr "Connectez-vous pour commencer votre session"
+
+#, fuzzy
+#~ msgid ""
+#~ "Please enter your email addresse. A recovery email will be send to you."
+#~ msgstr ""
+#~ "S'il vous plaît entrer votre e-mail addresse. Un e-mail de récupération "
+#~ "sera envoyé à vous."
+
+#, fuzzy
+#~ msgid "You logged in successfully."
+#~ msgstr "Vous êtes connecté(e)."
+
+#, fuzzy
+#~ msgid "Wrong Password or User Name"
+#~ msgstr "Mot de passe ou nom d'utilisateur erroné"
+
+#, fuzzy
+#~ msgid "Login is required."
+#~ msgstr "Connexion requise."
+
+#, fuzzy
+#~ msgid "Username is already used by another user."
+#~ msgstr "Nom d'utilisateur est déjà utilisé par un autre utilisateur."
+
+#, fuzzy
+#~ msgid "This email is already used."
+#~ msgstr "Cet email a déjà été utilisé."
+
+#, fuzzy
+#~ msgid "This email seems to be already taken."
+#~ msgstr "Ce courriel semble être déjà pris."
+
+#, fuzzy
+#~ msgid "This username seems to be already taken."
+#~ msgstr "Ce nom d'utilisateur semble être déjà pris."
+
+#, fuzzy
+#~ msgid "The user has been successfully created."
+#~ msgstr "L''utilisateur a été créé avec succès"
+
+#, fuzzy
+#~ msgid "Your Account has been activated. Please Sign-up"
+#~ msgstr "Votre compte a été activé. S'il vous plaît Inscrivez-vous"
+
+#, fuzzy
+#~ msgid "Unknow email address"
+#~ msgstr "Adresse e-mail Inconnu"
+
+#, fuzzy
+#~ msgid ""
+#~ "The recovery email has been send. Please check your email, open the "
+#~ "recovery email and follow the instructions."
+#~ msgstr ""
+#~ "L'e-mail de récupération a été envoyé. S'il vous plaît vérifier votre e-"
+#~ "mail, ouvrez l'email de récupération et suivez les instructions."
+
+#, fuzzy
+#~ msgid "You must logout first to access that page."
+#~ msgstr "Vous devez vous déconnecter d'abord accéder à cette page."
+
+#, fuzzy
+#~ msgid ""
+#~ "A new password has been created for your account. Check your email to get "
+#~ "it."
+#~ msgstr ""
+#~ "Un nouveau mot de passe a été créé pour votre compte. Vérifiez votre e-"
+#~ "mail pour l'obtenir."
+
+#, fuzzy
+#~ msgid "The module has been enabled."
+#~ msgstr "Le module a été activé."
+
+#, fuzzy
+#~ msgid "The module has been disabled."
+#~ msgstr "Le module a été désactivé."
+
+#, fuzzy
+#~ msgid "The module has been removed."
+#~ msgstr "Le module a été enlevé."
+
+#, fuzzy
+#~ msgid "The module has been extracted."
+#~ msgstr "Le module a été extraite."
+
+#, fuzzy
+#~ msgid "The module has been updated."
+#~ msgstr "Le module a été mis à jour."
+
+#, fuzzy
+#~ msgid "The version installed is already up to date."
+#~ msgstr "La version installée est déjà à jour."
+
+#, fuzzy
+#~ msgid "An error occured during update."
+#~ msgstr "Une erreur est survenue lors de la mise à jour."
+
+#, fuzzy
+#~ msgid ""
+#~ "Config file hasn't been found. This file is not a valid module. "
+#~ "Installation aborded !!!"
+#~ msgstr ""
+#~ "Fichier de configuration n'a pas été trouvé. Ce fichier est pas un module "
+#~ "valide. Installation aborded !!!"
+
+#, fuzzy
+#~ msgid "A migration is not required or has already been done."
+#~ msgstr "Une migration n'est pas requise ou a déjà été faite."
+
+#, fuzzy
+#~ msgid "Unamed Custom Post"
+#~ msgstr "Unamed personnalisés Poster"
+
+#, fuzzy
+#~ msgid "Untitled"
+#~ msgstr "Sans titre"
+
+#, fuzzy
+#~ msgid "New %s"
+#~ msgstr "Nouveau %s"
+
+#, fuzzy
+#~ msgid "Edit %s"
+#~ msgstr "Modifier %s"
+
+#, fuzzy
+#~ msgid "%s list"
+#~ msgstr "liste %s"
+
+#, fuzzy
+#~ msgid "Not Set"
+#~ msgstr "Configurer un accès"
+
+#, fuzzy
+#~ msgid "Draft"
+#~ msgstr "Brouillon"
+
+#, fuzzy
+#~ msgid "Published"
+#~ msgstr "Publié"
+
+#, fuzzy
+#~ msgid "Pending"
+#~ msgstr "En attendant"
+
+#, fuzzy
+#~ msgid "Trash"
+#~ msgstr "Corbeille"
+
+#, fuzzy
+#~ msgid "Disapproved"
+#~ msgstr "Refusé"
+
+#~ msgid "Unknow status"
+#~ msgstr "État inconnu"
+
+#, fuzzy
+#~ msgid "Create a new %s"
+#~ msgstr "Créer un nouvel %s"
+
+#, fuzzy
+#~ msgid "delete %s"
+#~ msgstr "supprimer %s"
+
+#, fuzzy
+#~ msgid "Comments"
+#~ msgstr "Commentaires"
+
+#, fuzzy
+#~ msgid "%s comments"
+#~ msgstr "%s commentaires"
+
+#, fuzzy
+#~ msgid "Unable to load \"index.php\" from current theme."
+#~ msgstr "Impossible de charger « index.php » du thème actuel."
+
+#, fuzzy
+#~ msgid "Unable to load \"blog.php\" from current theme."
+#~ msgstr "Impossible de charger « blog.php » du thème actuel."
+
+#, fuzzy
+#~ msgid "Unable to load \"single.php\" from current theme."
+#~ msgstr "Impossible de charger « single.php » du thème actuel."
+
+#, fuzzy
+#~ msgid "Unable to load \"404.php\" from current theme."
+#~ msgstr "Impossible de charger « 404.php » du thème actuel."
+
+#, fuzzy
+#~ msgid ""
+#~ "Post Type module is not enabled. <a href=\"%s\">Please log in and install/"
+#~ "enable</a> the module first"
+#~ msgstr ""
+#~ "Module de Type de message n'est pas activé. <a href=\"%s\">S'il vous "
+#~ "plaît vous connecter et installer/activer</a> le module premier"
+
+#, fuzzy
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#, fuzzy
+#~ msgid "Dashboard &mdash; %s"
+#~ msgstr "Tableau de bord -%s"
+
+#, fuzzy
+#~ msgid "Settings &mdash; %s"
+#~ msgstr "Réglages -%s"
+
+#, fuzzy
+#~ msgid "Dashboard"
+#~ msgstr "Tableau de bord"
+
+#~ msgid "Update Center"
+#~ msgstr "Centre des mises à jour"
+
+#, fuzzy
+#~ msgid "About"
+#~ msgstr "À propos"
+
+#, fuzzy
+#~ msgid "Modules"
+#~ msgstr "Modules"
+
+#, fuzzy
+#~ msgid "Settings"
+#~ msgstr "Réglages"
+
+#, fuzzy
+#~ msgid "Error : Output Not Found &mdash; %s"
+#~ msgstr "Erreur: Sortie Non Trouvé -%s"
+
+#, fuzzy
+#~ msgid "Error page"
+#~ msgstr "Page d’erreur"
+
+#, fuzzy
+#~ msgid "Error : An error occured &mdash; %s"
+#~ msgstr "Erreur: Une erreur est survenue -%s"
+
+#, fuzzy
+#~ msgid "An Error occured"
+#~ msgstr "Une erreur est survenue"
+
+#, fuzzy
+#~ msgid "Error : 404 &mdash; %s"
+#~ msgstr "Erreur: 404 -%s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Une mise à jour est prète à être installée. <a href=\"%s\">Cliquez ici "
+#~ "pour l'installer</a>"
+#~ msgstr ""
+#~ "Une mise à jour est prète à être installée. <a href=\"%s\">Cliquez ici "
+#~ "verser installer</a>"
+
+#, fuzzy
+#~ msgid "Let user access settings page and to manage it."
+#~ msgstr "Page de paramètres de l'accès utilisateur laisser et de le gérer."
+
+#, fuzzy
+#~ msgid "Let user access to modules list and to manage it."
+#~ msgstr ""
+#~ "Laisser l'accès des utilisateurs à la liste de modules et de le gérer."
+
+#, fuzzy
+#~ msgid "Let user access user list and manage them."
+#~ msgstr "Laissez la liste d'utilisateur accès utilisateurs et de les gérer."
+
+#, fuzzy
+#~ msgid "Manage Users"
+#~ msgstr "Gérer les utilisateurs"
+
+#, fuzzy
+#~ msgid "Create a new User"
+#~ msgstr "Créez un nouvel utilisateur."
+
+#, fuzzy
+#~ msgid "Groups"
+#~ msgstr "Groupes"
+
+#, fuzzy
+#~ msgid "Create a new group"
+#~ msgstr "Créer un nouveau groupe"
+
+#, fuzzy
+#~ msgid "Users &mdash; %s"
+#~ msgstr "Utilisateurs -%s"
+
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+
+#, fuzzy
+#~ msgid "Confirm"
+#~ msgstr "Confirmer"
+
+#, fuzzy
+#~ msgid "User Privilege"
+#~ msgstr "Privilège de l'utilisateur"
+
+#, fuzzy
+#~ msgid "Edit user &mdash; %s"
+#~ msgstr "Modifier l'utilisateur -%s"
+
+#, fuzzy
+#~ msgid "Create a new user &mdash; %s"
+#~ msgstr "Créez un nouvel utilisateur -%s"
+
+#, fuzzy
+#~ msgid "Old Pass"
+#~ msgstr "Ancienne carte"
+
+#, fuzzy
+#~ msgid "My Profile &mdash; %s"
+#~ msgstr "Mon profil -%s"
+
+#, fuzzy
+#~ msgid "Roles &mdash; %s"
+#~ msgstr "Rôles -%s"
+
+#, fuzzy
+#~ msgid "Role Name"
+#~ msgstr "Nom d’utilisateur"
+
+#, fuzzy
+#~ msgid "Role Type"
+#~ msgstr "Type de Rôle"
+
+#, fuzzy
+#~ msgid "Create new role &mdash; %s"
+#~ msgstr "Créer un nouveau rôle -%s"
+
+#, fuzzy
+#~ msgid "Edit Roles &mdash; %s"
+#~ msgstr "Modifier Rôles -%s"
+
+#, fuzzy
+#~ msgid "Please provide your user email in order to get recovery email"
+#~ msgstr ""
+#~ "S'il vous plaît fournir votre email de l'utilisateur afin d'obtenir la "
+#~ "reprise email"
+
+#, fuzzy
+#~ msgid "User email or Pseudo"
+#~ msgstr "E-mail de l'utilisateur ou pseudo"
+
+#, fuzzy
+#~ msgid "Get recovery Email"
+#~ msgstr "Obtenez récupération Email"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#, fuzzy
+#~ msgid "Password confirm"
+#~ msgstr "Confirmer mot de passe"
+
+#, fuzzy
+#~ msgid "Email or User Name"
+#~ msgstr "adresse électronique (ou nom d'utilisateur)"
+
+#, fuzzy
+#~ msgid "Remember me"
+#~ msgstr "Se souvenir de moi"
+
+#, fuzzy
+#~ msgid "First Name"
+#~ msgstr "Prénom"
+
+#, fuzzy
+#~ msgid "Last Name"
+#~ msgstr "Nom"
+
+#, fuzzy
+#~ msgid "Select a theme"
+#~ msgstr "Sélectionner un thème."
+
+#, fuzzy
+#~ msgid "Blue"
+#~ msgstr "Bleu"
+
+#, fuzzy
+#~ msgid "Black"
+#~ msgstr "Noir"
+
+#, fuzzy
+#~ msgid "Purple"
+#~ msgstr "Pourpre"
+
+#, fuzzy
+#~ msgid "Green"
+#~ msgstr "Vert"
+
+#, fuzzy
+#~ msgid "Red"
+#~ msgstr "Rouge"
+
+#, fuzzy
+#~ msgid "Yellow"
+#~ msgstr "Jaune"
+
+#, fuzzy
+#~ msgid "Blue Light"
+#~ msgstr "Bleu Clair"
+
+#, fuzzy
+#~ msgid "Black Light"
+#~ msgstr "Lumière noire"
+
+#, fuzzy
+#~ msgid "Purple Light"
+#~ msgstr "lumière pourpre"
+
+#, fuzzy
+#~ msgid "Green Light"
+#~ msgstr "Green Light"
+
+#, fuzzy
+#~ msgid "Red Light"
+#~ msgstr "La lumière rouge"
+
+#, fuzzy
+#~ msgid "Yellow Light"
+#~ msgstr "Lumière jaune"
+
+#, fuzzy
+#~ msgid "Role List"
+#~ msgstr "Liste de Rôle"
+
+#, fuzzy
+#~ msgid "Role name"
+#~ msgstr "Nom du rôle"
+
+#, fuzzy
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#, fuzzy
+#~ msgid "Admin"
+#~ msgstr "Administration"
+
+#, fuzzy
+#~ msgid "Permissions"
+#~ msgstr "Permissions"
+
+#, fuzzy
+#~ msgid "Create a new role"
+#~ msgstr "Créer un nouveau rôle"
+
+#, fuzzy
+#~ msgid "Create the role"
+#~ msgstr "Créer le rôle"
+
+#, fuzzy
+#~ msgid "Enter role name"
+#~ msgstr "Nom d’utilisateur"
+
+#, fuzzy
+#~ msgid "Public"
+#~ msgstr "Public"
+
+#, fuzzy
+#~ msgid "Edit a new role"
+#~ msgstr "Modifier un nouveau rôle"
+
+#, fuzzy
+#~ msgid "Edit the role"
+#~ msgstr "Modifier le rôle"
+
+#, fuzzy
+#~ msgid "Edit role name"
+#~ msgstr "Modifier le nom de rôle"
+
+#, fuzzy
+#~ msgid "Groups permissions"
+#~ msgstr "Permissions ddu groupe"
+
+#, fuzzy
+#~ msgid "Delete"
+#~ msgstr "Effacer"
+
+#~ msgid "List"
+#~ msgstr "Liste"
+
+#, fuzzy
+#~ msgid "User Id"
+#~ msgstr "Id de l’utilisateur"
+
+#, fuzzy
+#~ msgid "Username"
+#~ msgstr "Nom d’utilisateur"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#, fuzzy
+#~ msgid "Activity"
+#~ msgstr "Activité"
+
+#, fuzzy
+#~ msgid "Actions"
+#~ msgstr "Actions"
+
+#, fuzzy
+#~ msgid "Create User"
+#~ msgstr "Créer un utilisateur"
+
+#, fuzzy
+#~ msgid "Add to a group"
+#~ msgstr "Ajouter au groupe"
+
+#, fuzzy
+#~ msgid "Edit User"
+#~ msgstr "Editer l’Utilisateur"
+
+#, fuzzy
+#~ msgid "New Password"
+#~ msgstr "Nouveau mot de passe"
+
+#, fuzzy
+#~ msgid "Confirm New"
+#~ msgstr "Confirmer nouveau"
+
+#, fuzzy
+#~ msgid "Old Password"
+#~ msgstr "Ancien mot de passe"
+
+#, fuzzy
+#~ msgid "Post Type module is not enabled..."
+#~ msgstr "Module de Type de message n'est pas permis..."
+
+#, fuzzy
+#~ msgid "Blog Post"
+#~ msgstr "Article de blog"
+
+#, fuzzy
+#~ msgid "Category"
+#~ msgstr "Cat&eacute;gorie"
+
+#, fuzzy
+#~ msgid "Tags"
+#~ msgstr "Etiquettes"
+
+#~ msgid "Pages"
+#~ msgstr "Pages"
+
+#, fuzzy
+#~ msgid "%s actives installations"
+#~ msgstr "installations actives %s"
+
+#, fuzzy
+#~ msgid "Pingback Report"
+#~ msgstr "Rapport pingback"
+
+#, fuzzy
+#~ msgid "PingBack and Trackback Settings"
+#~ msgstr "Pingback et paramètres Trackback"
+
+#, fuzzy
+#~ msgid "Enable Store Pingback ?"
+#~ msgstr "Activer magasin Pingback?"
+
+#, fuzzy
+#~ msgid "Enable Store Pingback"
+#~ msgstr "Activer magasin Pingback"
+
+#, fuzzy
+#~ msgid "Aauth Module is required, please install or enable it"
+#~ msgstr "Aauth Module est nécessaire, veuillez installer ou activer"
+
+#, fuzzy
+#~ msgid "Post title"
+#~ msgstr "Titre de l’article"
+
+#, fuzzy
+#~ msgid "Taxonomy Title"
+#~ msgstr "Titre de taxonomie"
+
+#, fuzzy
+#~ msgid "New taxonomy"
+#~ msgstr "Ajouter nouvelle Taxonomie"
+
+#, fuzzy
+#~ msgid "Edit taxonomy"
+#~ msgstr "Modifier la taxonomie"
+
+#, fuzzy
+#~ msgid "Select"
+#~ msgstr "Sélectionner"
+
+#, fuzzy
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#, fuzzy
+#~ msgid "Excerpt"
+#~ msgstr "Extrait"
+
+#, fuzzy
+#~ msgid "By"
+#~ msgstr "Par"
+
+#, fuzzy
+#~ msgid "On"
+#~ msgstr "Sur"
+
+#, fuzzy
+#~ msgid "Approve"
+#~ msgstr "Approuver"
+
+#, fuzzy
+#~ msgid "Disapprove"
+#~ msgstr "Désapprouverait"
+
+#, fuzzy
+#~ msgid "Details"
+#~ msgstr "Informations sur l’entreprise."
+
+#, fuzzy
+#~ msgid "Enter a title"
+#~ msgstr "Saisissez un titre de lien"
+
+#, fuzzy
+#~ msgid "Select a taxonomy"
+#~ msgstr "Selectionnez Taxonomie"
+
+#, fuzzy
+#~ msgid "Publish"
+#~ msgstr "Publier"
+
+#, fuzzy
+#~ msgid "No parent"
+#~ msgstr "Commande parent"
+
+#, fuzzy
+#~ msgid "Choose a parent"
+#~ msgstr "Choisissez un parent"
+
+#, fuzzy
+#~ msgid "Select Parent"
+#~ msgstr "Sélection Parent"
+
+#, fuzzy
+#~ msgid "Submit"
+#~ msgstr "Soumettre"
+
+#, fuzzy
+#~ msgid "Select a parent"
+#~ msgstr "Sélection Parent"
+
+#, fuzzy
+#~ msgid "Taxonomy description"
+#~ msgstr "Description de la taxonomie"
+
+#, fuzzy
+#~ msgid "Header Menu"
+#~ msgstr "Menu d’en tête"
+
+#, fuzzy
+#~ msgid "Footer Menu"
+#~ msgstr "Menu de Pied de Page"
+
+#, fuzzy
+#~ msgid "Bottom Menu"
+#~ msgstr "Menu du Pied de page"
+
+#, fuzzy
+#~ msgid "Menu Builder &mdash; %s"
+#~ msgstr "Menu Builder &mdash; %s"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr "Thèmes"
+
+#, fuzzy
+#~ msgid "Menu"
+#~ msgstr "Choisir le style du menu de mon compte."
+
+#, fuzzy
+#~ msgid "Get to blog"
+#~ msgstr "Se rendre à blog"
+
+#, fuzzy
+#~ msgid "You must provide a name for this menu."
+#~ msgstr "Vous devez fournir un nom pour ce menu."
+
+#, fuzzy
+#~ msgid "This menu already exists, please choose another name"
+#~ msgstr "Ce menu existe déjà, s'il vous plaît choisissez un autre nom"
+
+#, fuzzy
+#~ msgid "Must provide \"Label\" and \"Url\""
+#~ msgstr "Doit fournir « Label » et « Url »"
+
+#, fuzzy
+#~ msgid "You should load a menu first"
+#~ msgstr "Vous devez charger un menu tout d'abord"
+
+#, fuzzy
+#~ msgid "Loaded : "
+#~ msgstr "Chargé"
+
+#, fuzzy
+#~ msgid "Create a menu"
+#~ msgstr "Créer un menu"
+
+#, fuzzy
+#~ msgid "Menu Name, with no space nor special character"
+#~ msgstr "Nom du menu, sans espace ni caractère spécial"
+
+#, fuzzy
+#~ msgid "Delete Selected Menu"
+#~ msgstr "Supprimer la sélection"
+
+#, fuzzy
+#~ msgid "Load menu"
+#~ msgstr "Menu de chargement"
+
+#, fuzzy
+#~ msgid "Create simple link"
+#~ msgstr "Créer lien simple"
+
+#, fuzzy
+#~ msgid "Link Label"
+#~ msgstr "Lien"
+
+#, fuzzy
+#~ msgid "Link URL"
+#~ msgstr "URL du Lien"
+
+#, fuzzy
+#~ msgid "Create Link"
+#~ msgstr "Création de lien"
+
+#, fuzzy
+#~ msgid "Menu Locations"
+#~ msgstr "Emplacements de menu"
+
+#, fuzzy
+#~ msgid "This is not de page you're looking for &mdash; %s"
+#~ msgstr "Ce n'est pas de page que vous recherchez &mdash; %s"
+
+#, fuzzy
+#~ msgid "Read More"
+#~ msgstr "En savoir plus"
+
+#, fuzzy
+#~ msgid "No Posts"
+#~ msgstr "Sélectionnez les articles à inclure dans l'abonnement."
+
+#, fuzzy
+#~ msgid "No posts yet. Get to dashboard and <a href=\"%s\">start writing</a>"
+#~ msgstr ""
+#~ "Pas encore de postes. Familiarisez-vous avec tableau de bord et <a href="
+#~ "\"%s\">commencer à écrire</a>"
+
+#, fuzzy
+#~ msgid "Start Writing"
+#~ msgstr "Commencez à écrire"
+
+#, fuzzy
+#~ msgid "Get To dashboard"
+#~ msgstr "Obtenir au tableau de bord"
+
+#, fuzzy
+#~ msgid "Get To Home"
+#~ msgstr "Se rendre à la maison"
+
+#, fuzzy
+#~ msgid "Hello !!!"
+#~ msgstr "Bonjour"
+
+#, fuzzy
+#~ msgid ""
+#~ "This is the first Tendoo Theme. We still working on this feature to let "
+#~ "people create better blog With tendoo. <a href=\"%s\">Get to blog here</"
+#~ "a>. <br>This theme use \"Post_Type\" and \"Blog\" modules."
+#~ msgstr ""
+#~ "Il s'agit du premier Tendoo thème. Nous travaillons toujours cette "
+#~ "fonction de laisser les gens à créer le meilleur blog avec tendoo. <a "
+#~ "href=\"%s\">Se rendre à blog ici</a>.<br>Ce thème utilise des modules « "
+#~ "Post_Type » et « Blog »."
+
+#, fuzzy
+#~ msgid "%s &mdash; %s"
+#~ msgstr "%s &mdash; %s"
+
+#, fuzzy
+#~ msgid "By %s"
+#~ msgstr "Aucun %s"
+
+#, fuzzy
+#~ msgid "Go Back"
+#~ msgstr "Retour"
+
+#, fuzzy
+#~ msgid "Sample Button"
+#~ msgstr "Bouton de l'échantillon"
+
+#, fuzzy
+#~ msgid "No result available"
+#~ msgstr "Aucun résultat disponible"
+
+#, fuzzy
+#~ msgid "Stats"
+#~ msgstr "Statistiques"
+
+#, fuzzy
+#~ msgid "Controllers"
+#~ msgstr "Contrôleurs"
+
+#, fuzzy
+#~ msgid "Roles"
+#~ msgstr "Rôles"
+
+#, fuzzy
+#~ msgid "Users"
+#~ msgstr "Utilisateurs"
+
+#, fuzzy
+#~ msgid "All visits this month (unique/global)"
+#~ msgstr "Toutes les visites ce mois-ci (unique / global)"
+
+#, fuzzy
+#~ msgid "Unique visits"
+#~ msgstr "Visites uniques"
+
+#, fuzzy
+#~ msgid "Regular visits"
+#~ msgstr "Des visites régulières"
+
+#, fuzzy
+#~ msgid "Welcome on tendoo"
+#~ msgstr "Bienvenue sur tendoo"
+
+#, fuzzy
+#~ msgid ""
+#~ "We're glad to see you trust in our services. Let's us introduce a new "
+#~ "version of tendoo, with more flexibility and excelling performance. With "
+#~ "tutorials, you'll be able to create easilly a very professionnal website."
+#~ msgstr ""
+#~ "Nous sommes heureux de voir qui vous avez confiance dans nos services. "
+#~ "Allons-nous vous présenter une nouvelle version de tendoo, avec plus de "
+#~ "flexibilité et de performance exceller. Avec des tutoriels, vous serez en "
+#~ "mesure de créer easilly un site très professionnel."
+
+#, fuzzy
+#~ msgid "As start task, you can : "
+#~ msgstr "Comme tâche de démarrage, vous pouvez:"
+
+#, fuzzy
+#~ msgid "Publish new blog post, to share something with the world."
+#~ msgstr ""
+#~ "Publier nouveau billet de blog, de partager quelque chose avec le monde."
+
+#, fuzzy
+#~ msgid "Editing your website setting. You can enable registration there."
+#~ msgstr ""
+#~ "Modification de votre réglage de site Web. Vous pouvez activer "
+#~ "l'enregistrement il."
+
+#, fuzzy
+#~ msgid ""
+#~ "To remove this widget, get to settings and disable \"Welcome Widget\". "
+#~ "You can either disable and enable every widget you want. Some widgets "
+#~ "won't be visible due to user permission, as admin only you can allow "
+#~ "widget access using permission management interface."
+#~ msgstr ""
+#~ "Pour supprimer ce widget, obtenir les paramètres et désactiver "
+#~ "\"Bienvenue Widget\". Vous pouvez activer et désactiver chaque widget que "
+#~ "vous souhaitez. Certains widgets ne seront pas visibles en raison de la "
+#~ "permission de l'utilisateur, en tant qu'administrateur seulement vous "
+#~ "pouvez autoriser l'accès widget de utilisant l'interface de gestion de la "
+#~ "permission."
+
+#, fuzzy
+#~ msgid "Allow Role Selection"
+#~ msgstr "Autoriser la sélection de Rôle"
+
+#, fuzzy
+#~ msgid "Allow Role selection"
+#~ msgstr "Permettre la sélection de Rôle"
+
+#, fuzzy
+#~ msgid "Auto update tendoo"
+#~ msgstr "Mise à jour automatique tendoo"
+
+#, fuzzy
+#~ msgid "Enable Remote Themes and Module Installation"
+#~ msgstr "Activer Thèmes distance et l'installation du module"
+
+#, fuzzy
+#~ msgid "Enable Cache"
+#~ msgstr "Activer Cache"
+
+#, fuzzy
+#~ msgid "Mysqli"
+#~ msgstr "Mysqli"
+
+#, fuzzy
+#~ msgid "Postgre SQL"
+#~ msgstr "Postgre SQL"
+
+#~ msgid "Thank you for using Tendoo CMS. &mdash %s in %s seconds"
+#~ msgstr "Merci d'utiliser Tendoo CMS. & mdash%s en%s secondes"
+
+#~ msgid ""
+#~ "Thanks for having choosed Tendoo to host your project. Here is the "
+#~ "installation wizard. This wizard has 2 more pages : Database "
+#~ "configuration and Site configuration. If you're ready, let's go !!!"
+#~ msgstr ""
+#~ "Merci d'avoir choisi Tendoo pour votre projet. Voici l'assistant "
+#~ "d'installation. Cet assistant a 2 pages supplémentaires : la "
+#~ "configuration de base de données et la configuration du site. Si vous "
+#~ "êtes prêt, allons-y !!!"
+
+#, fuzzy
+#~ msgid "Thanks you for using Tendoo CMS"
+#~ msgstr "Merci pour l'aide que vous Tendoo CMS"

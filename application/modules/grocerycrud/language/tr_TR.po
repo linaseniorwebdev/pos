@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-07-14 01:52+0100\n"
+"PO-Revision-Date: 2018-07-14 01:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_s;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: grocerycrud.php:23
+#, fuzzy
+msgid "Options"
+msgstr "Geçerli oturum için seçenekler: "
+
+#: views/add.php:201 views/edit.php:242
+#, fuzzy
+msgid "The form fields has an error. Please check it an try again."
+msgstr "Form alanlarının bir hatası var. Lütfen tekrar deneyin."
+
+#: views/list-template.php:83
+msgid "Export as CSV"
+msgstr "CSV Olarak Dışa Aktar"
+
+#: views/list-template.php:86
+msgid "Refresh"
+msgstr "Yenile"
+
+#: views/list-template.php:102
+msgid "Delete Selected"
+msgstr "Seçilenleri Sil"
+
+#: views/list-template.php:137
+msgid "First Page"
+msgstr "İlk Sayfa"
+
+#: views/list-template.php:148
+msgid "Last Page"
+msgstr "Son Sayfa"
+
+#: views/list.php:133
+#, fuzzy
+msgid "You must selected at least one item"
+msgstr "En az bir öğe seçmelisiniz"
+
+#: views/list.php:141
+#, fuzzy
+msgid "Would you like to delete selected entries"
+msgstr "Seçilen girişleri silmek ister misiniz?"
+
+#: views/list.php:153
+msgid "Successful"
+msgstr "Başarılı"
+
+#: views/list.php:154
+#, fuzzy
+msgid "All entries has been deleted"
+msgstr "Tüm girişler silindi"

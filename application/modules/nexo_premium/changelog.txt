@@ -1,0 +1,25 @@
+v2.7.5
+======
+* Fixed : 404 route for Category Expenses
+v2.6.9
+======
+* Fixed : Daily report bug
+v2.6.8
+======
+* Fixed : annual sales report
+v2.6.7
+======
+* Added formating to date
+* Fixed issue with incomes and losses report
+v2.6.6
+=====
+* Added - Invoice category
+v2.6.4
+=====
+- Detailed report only support cash order
+v2.1.6
+=====
+- Make Profit and Sale report customizable.
+v2.0
+====
+- Enable module by default when installing Tendoo CMS.

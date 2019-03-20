@@ -1,0 +1,490 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-12-10 14:59+0100\n"
+"PO-Revision-Date: 2018-08-09 00:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_s;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/actions.php:33
+#, fuzzy
+msgid ""
+"The multistore feature should be enable in order to use the stock manager."
+msgstr ""
+"La fonction multimagasin doit être activée afin d'utiliser le gestionnaire "
+"de stock."
+
+#: inc/controller.php:29
+#, fuzzy
+msgid "Historique de transfert de stock"
+msgstr "Historique de transfert de stock"
+
+#: inc/controller.php:48
+msgid "Name"
+msgstr "Nom"
+
+#: inc/controller.php:49
+msgid "Status"
+msgstr "Statut"
+
+#: inc/controller.php:50
+#, fuzzy
+msgid "Edited by"
+msgstr "Date de modification"
+
+#: inc/controller.php:51
+#, fuzzy
+msgid "From"
+msgstr ""
+"Cette fonctionnalité vous permettra de gérer toutes les commandes à partir "
+"d'une seule cuisine."
+
+#: inc/controller.php:52 views/transfert/dom.php:16
+msgid "Send To"
+msgstr "Envoyer à"
+
+#: inc/controller.php:53
+#, fuzzy
+msgid "Type"
+msgstr "Type :"
+
+#: inc/controller.php:54
+#, fuzzy
+msgid "Created on"
+msgstr "Créé Le"
+
+#: inc/controller.php:55
+msgid "Author"
+msgstr "Auteur"
+
+#: inc/controller.php:62 inc/controller.php:178
+msgid "Transfert Invoice"
+msgstr "Transfert de la facture"
+
+#: inc/controller.php:66
+msgid "Pending"
+msgstr "En attente"
+
+#: inc/controller.php:68
+#, fuzzy
+msgid "Approuved"
+msgstr "Approuvé"
+
+#: inc/controller.php:70
+msgid "Refused"
+msgstr "Refusé"
+
+#: inc/controller.php:72
+msgid "Canceled"
+msgstr "Annulé"
+
+#: inc/controller.php:79
+msgid "N/A"
+msgstr "Indisponible"
+
+#: inc/controller.php:83 inc/controller.php:87 views/transfert/script.php:21
+#, fuzzy
+msgid "Main Warehouse"
+msgstr "Entrepôt principal"
+
+#: inc/controller.php:104
+#, fuzzy
+msgid "Allow the Transfert"
+msgstr "Autoriser le transfert"
+
+#: inc/controller.php:105
+msgid "Approuve"
+msgstr "Approuvé"
+
+#: inc/controller.php:110
+msgid "Refuse"
+msgstr "Refuser"
+
+#: inc/controller.php:111
+msgid "Reject"
+msgstr "Rejeter"
+
+#: inc/controller.php:116 inc/controller.php:117
+msgid "Cancel"
+msgstr "Annuler"
+
+#: inc/controller.php:192 inc/filters.php:36 inc/filters.php:168
+#, fuzzy
+msgid "Transfert Settings"
+msgstr "Paramètres de transfert"
+
+#: inc/controller.php:208
+#, fuzzy
+msgid ""
+"You cannot approuve this transfert. It may have been canceled or yet "
+"approuved."
+msgstr ""
+"Vous ne pouvez pas approuver ce transfert. Il peut avoir été annulé ou "
+"encore approuvé."
+
+#: inc/controller.php:365
+#, fuzzy
+msgid "You cannot cancel this transfert, it may have yet been approuved."
+msgstr ""
+"Vous ne pouvez pas annuler ce transfert, il peut avoir encore été approuvé."
+
+#: inc/controller.php:392
+#, fuzzy, php-format
+msgid "Canceling Transfert : %s"
+msgstr "Annulation du transfert: %s"
+
+#: inc/controller.php:497
+#, fuzzy
+msgid ""
+"You cannot reject this transfert, it may have yet been approuved or canceled."
+msgstr ""
+"Vous ne pouvez pas rejeter ce transfert, il peut avoir encore été approuvé "
+"ou annulé."
+
+#: inc/controller.php:534
+#, fuzzy, php-format
+msgid "Rejecting Transfert : %s"
+msgstr "Rejet du transfert: %s"
+
+#: inc/filters.php:22 inc/filters.php:154
+#, fuzzy
+msgid "Stock Transfert"
+msgstr "Transfert de stock"
+
+#: inc/filters.php:28 inc/filters.php:160
+#, fuzzy
+msgid "Transfert History"
+msgstr "Historique des transferts"
+
+#: inc/filters.php:32 inc/filters.php:164
+#, fuzzy
+msgid "New Transfert"
+msgstr "Nouveau transfert"
+
+#: inc/filters.php:60
+msgid "Inventaire"
+msgstr "Inventaire"
+
+#: inc/filters.php:66
+#, fuzzy
+msgid "Liste des livraisons"
+msgstr "Liste des livraisons"
+
+#: inc/filters.php:70
+#, fuzzy
+msgid "Nouvelle livraison"
+msgstr "Nouvelle livraison"
+
+#: inc/filters.php:74
+#, fuzzy
+msgid "Liste des articles"
+msgstr "Liste des Articles"
+
+#: inc/filters.php:78
+#, fuzzy
+msgid "Ajouter un article"
+msgstr "Ajouter article de l'ONU"
+
+#: inc/filters.php:83
+#, fuzzy
+msgid "Ajustement des quantités"
+msgstr "Ajustement des quantités"
+
+#: inc/filters.php:87
+#, fuzzy
+msgid "Importer les articles"
+msgstr "Importateur les Articles"
+
+#: inc/filters.php:91
+#, fuzzy
+msgid "Liste des taxes"
+msgstr "Liste des taxes"
+
+#: inc/filters.php:95
+#, fuzzy
+msgid "Ajouter une taxe"
+msgstr "Ajouter une taxe"
+
+#: inc/filters.php:99
+#, fuzzy
+msgid "Liste des départements"
+msgstr "Liste des départements"
+
+#: inc/filters.php:103
+#, fuzzy
+msgid "Ajouter un département"
+msgstr "Ajouter Département des Nations Unies"
+
+#: inc/filters.php:107
+msgid "Liste des catégories"
+msgstr "Liste des secteurs"
+
+#: inc/filters.php:111
+#, fuzzy
+msgid "Ajouter une catégorie"
+msgstr "Add Category"
+
+#: inc/filters.php:118
+#, fuzzy
+msgid "Fournisseurs"
+msgstr "Fournisseurs"
+
+#: inc/filters.php:124
+#, fuzzy
+msgid "Liste des fournisseurs"
+msgstr "Liste des fournisseurs"
+
+#: inc/filters.php:128
+#, fuzzy
+msgid "Ajouter un fournisseur"
+msgstr "Ajouter un fournisseur"
+
+#: inc/filters.php:135
+#, fuzzy
+msgid "Warehouse Settings"
+msgstr "Paramètres de l'entrepôt"
+
+#: inc/filters.php:140
+msgid "Others Settings"
+msgstr "Autres réglages"
+
+#: inc/filters.php:145
+msgid "Receipt & Invoice"
+msgstr "Reçu & Facture"
+
+#: views/settings/dom.php:1
+#, fuzzy
+msgid "You can use the following tag"
+msgstr "Vous pouvez utiliser"
+
+#: views/settings/dom.php:3
+#, fuzzy
+msgid "For the store which send the stock"
+msgstr "Pour le magasin qui envoie le stock"
+
+#: views/settings/dom.php:4
+msgid "{provider_store_name} : To display provider store name."
+msgstr "{provider_store_name}: Pour afficher le nom du magasin du fournisseur."
+
+#: views/settings/dom.php:5
+msgid "{provider_store_email} : To display provider store email."
+msgstr ""
+"{provider_store_email}: Pour afficher l'e-mail du magasin du fournisseur."
+
+#: views/settings/dom.php:6
+msgid "{provider_store_phone} : To display provider store phone."
+msgstr ""
+"{provider_store_phone}: Pour afficher le téléphone du magasin du fournisseur."
+
+#: views/settings/dom.php:7
+#, fuzzy
+msgid "{provider_store_fax} : To display provider store fax number."
+msgstr ""
+"{provider_store_fax}: pour afficher le numéro de télécopie du magasin "
+"fournisseur."
+
+#: views/settings/dom.php:8
+msgid "{provider_store_address} : To display provider store address."
+msgstr ""
+"{provider_store_address}: Pour afficher l'adresse du magasin du fournisseur."
+
+#: views/settings/dom.php:9
+msgid "{provider_store_pobox} : To display provider store PO.box."
+msgstr ""
+"{provider_store_pobox}: Pour afficher le code postal du magasin du "
+"fournisseur."
+
+#: views/settings/dom.php:10
+#, fuzzy
+msgid "For the store which receive the stock"
+msgstr "Pour le magasin qui reçoit le stock"
+
+#: views/settings/dom.php:11
+msgid "{receiver_store_name} : To display receiver store name."
+msgstr "{receiver_store_name}: Pour afficher le nom du magasin du récepteur."
+
+#: views/settings/dom.php:12
+msgid "{receiver_store_email} : To display receiver store email."
+msgstr ""
+"{receiver_store_email}: Pour afficher l'e-mail du magasin destinataire."
+
+#: views/settings/dom.php:13
+#, fuzzy
+msgid "{receiver_store_phone} : To display receiver store phone."
+msgstr ""
+"{receiver_store_phone}: pour afficher le téléphone du magasin du récepteur."
+
+#: views/settings/dom.php:14
+msgid "{receiver_store_fax} : To display receiver store fax number."
+msgstr ""
+"{receiver_store_fax}: Pour afficher le numéro de fax du magasin du récepteur."
+
+#: views/settings/dom.php:15
+msgid "{receiver_store_address} : To display receiver store address."
+msgstr "{provider_store_address}: Pour afficher l'adresse du magasin."
+
+#: views/settings/dom.php:16
+msgid "{receiver_store_pobox} : To display receiver store PO.box."
+msgstr "{receiver_store_pobox}: Pour afficher le code postal du magasin;"
+
+#: views/settings/gui.php:12
+msgid "Save the settings"
+msgstr "Sauvegarder les paramètres"
+
+#: views/settings/gui.php:27
+#, fuzzy
+msgid "Left Column Settings"
+msgstr "Paramètres de colonne gauche"
+
+#: views/settings/gui.php:28
+#, fuzzy
+msgid "Customize the left column section for the transfert invoice."
+msgstr "Personnalisez la section colonne de gauche de la facture transfert."
+
+#: views/settings/gui.php:34
+#, fuzzy
+msgid "Right Column Settings"
+msgstr "Paramètres de colonne de droite"
+
+#: views/settings/gui.php:35
+#, fuzzy
+msgid "Customize the right column section for the transfert invoice."
+msgstr ""
+"Personnalisez la section de colonne de droite pour la facture transfert."
+
+#: views/settings/gui.php:41
+#, fuzzy
+msgid "Deduct Stock"
+msgstr "Déduire le stock"
+
+#: views/settings/gui.php:42
+#, fuzzy
+msgid ""
+"All item send won't be available when the stock is being send. Default Yes"
+msgstr ""
+"Tous les articles envoyés ne seront pas disponibles lorsque le stock est "
+"envoyé. Par défaut Oui"
+
+#: views/settings/gui.php:44
+msgid "Yes"
+msgstr "Oui"
+
+#: views/settings/gui.php:45
+msgid "No"
+msgstr "Non"
+
+#: views/transfert/dom.php:7
+msgid "Titre"
+msgstr "Titre"
+
+#: views/transfert/dom.php:10
+#, fuzzy
+msgid "This will help you identifiy the transfert."
+msgstr "Cela vous aidera à identifier le transfert."
+
+#: views/transfert/dom.php:20
+#, fuzzy
+msgid "Select where you would like to send the transfert."
+msgstr "Sélectionnez l'endroit où vous souhaitez envoyer le transfert."
+
+#: views/transfert/dom.php:27
+#, fuzzy
+msgid ""
+"Rechercher le nom du produit, le code barre ou l'unité de gestion du stock"
+msgstr ""
+"Rechercher le nom du produit, le code barre ou unité de gestion du stock"
+
+#: views/transfert/dom.php:31
+msgid "Item Barcode"
+msgstr "Code barres de l'article"
+
+#: views/transfert/dom.php:35
+msgid "Item List"
+msgstr "Liste des articles"
+
+#: views/transfert/dom.php:40 views/transfert/invoice-dom.php:34
+msgid "Item Name"
+msgstr "Nom de l'article"
+
+#: views/transfert/dom.php:41 views/transfert/invoice-dom.php:35
+msgid "Price"
+msgstr "Prix"
+
+#: views/transfert/dom.php:42 views/transfert/invoice-dom.php:36
+msgid "Quantity"
+msgstr "Quantité"
+
+#: views/transfert/dom.php:43 views/transfert/invoice-dom.php:37
+msgid "Total"
+msgstr "Total"
+
+#: views/transfert/dom.php:74
+#, fuzzy
+msgid "No item has been added"
+msgstr "Aucun article n'a été ajouté"
+
+#: views/transfert/dom.php:80
+#, fuzzy
+msgid "Send The Stock"
+msgstr "Envoyer le stock"
+
+#: views/transfert/invoice-dom.php:25
+#, fuzzy
+msgid "Transfert Summary"
+msgstr "Résumé du transfert"
+
+#: views/transfert/invoice-dom.php:26
+#, fuzzy, php-format
+msgid "Type : %s"
+msgstr "3.2.2.2 Type(s):"
+
+#: views/transfert/invoice-dom.php:76
+msgid "Print"
+msgstr "Imprimer"
+
+#: views/transfert/script.php:57
+#, fuzzy
+msgid "Unable to find this product"
+msgstr "Impossible de trouver ce produit"
+
+#: views/transfert/script.php:85 views/transfert/script.php:91
+#, fuzzy
+msgid "Out of stock, unable to add the product."
+msgstr "En stock, impossible d'ajouter le produit."
+
+#: views/transfert/script.php:109
+msgid "Would you like to remove this item"
+msgstr "Voulez-vous supprimer cette article"
+
+#: views/transfert/script.php:186
+msgid "You must provide a title"
+msgstr "Vous devez choisir un nom d'utilisateur"
+
+#: views/transfert/script.php:191
+#, fuzzy
+msgid "You must select a store"
+msgstr "Vous devez sélectionner un magasin"
+
+#: views/transfert/script.php:194
+msgid "Would you like to confirm this transfert ?"
+msgstr "Voulez-vous confirmer ce transfert ?"
+
+#: views/transfert/script.php:202
+#, fuzzy
+msgid "The stock has been successfully send !"
+msgstr "Le stock a été envoyé avec succès!"
+
+#: views/transfert/script.php:249
+#, fuzzy
+msgid "Unable to find this item"
+msgstr "Impossible de trouver cet élément"

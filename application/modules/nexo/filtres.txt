@@ -1,0 +1,359 @@
+Filtres:
+========
+/**
+ * nexo_daily_details_link
+ * lien vers le rapport détaillé du jour.
+**/
+
+/**
+ * nexo_daily_refresh_link // Deprecated
+ * lien pour rafraichir un rapport spécifique
+**/
+
+/**
+ * nexo_barcode_type
+ * Permet d'étendre ou de réduire le type de codebar pris en charge
+**/
+
+/**
+ * nexo_reports_menu_array
+ * Contient le menu des rapports
+**/
+
+/**
+ * nexo_shipping_menu_array
+ * Contient le menu des arrivages
+**/
+
+/**
+ * nexo_customers_menu_array
+ * Contient le menu des clients
+**/
+
+/**
+ * nexo_accounting_menu_array
+ * Contient le menu des accounting
+**/
+
+
+/**
+ * nexo_history_menu_array
+ * Contient le menu des history
+**/
+
+/**
+ * nexo_settings_menu_array
+ * Contient le menu des settings
+**/
+
+/**
+ * allowed_order_for_print
+ * Permet de modifier les commandes qui peuvent être imprimée. est un tableau avec la valeur "nexo_order_comptant"
+**/
+
+/**
+ * order_type_locked
+ * Espace noms des commandes qui ne peuvent pas être modifiées
+**/
+
+
+/**
+ * order_editable
+ * Commandes qui peuvent faire l'objet de modification
+**/
+
+/**
+ * order_only_payable
+ * Commande qui ne peuvent faire l'object que d'un paiement
+**/
+
+/**
+ * order_list_class
+ * Permet de modifier la classe des lignes des commandes. Prend deux paramètres la classe actuelle et l'object de la ligne "Row".
+**/
+
+/**
+ * pos_search_input_after (deprecated) use nexo_cart_buttons instead
+ * Permet d'ajouter un code aprèsle champ de recherche des produits sur la caisse
+**/
+
+/**
+ * nexo_cart_buttons
+ * Renvoi un tableau avec des clés des boutons situés sur le Panier
+**/
+
+/**
+ * before_cart_pay_button
+ * affiche un texte avec le bouton "Payer" sur la caisse
+**/
+
+/**
+ * before_cart_discount_button
+ * affiche un contenu avec le bouton "Remise" sur la caisse
+**/
+
+/**
+ * before_cart_cancel_button
+ * affiche un contenu avec le bouton "Annuler" sur la caisse
+**/
+
+// New
+
+/**
+ * nexo_payment_gateway
+ * renvoi une liste des moyens de paiement pris en charge par NexoPOS.
+**/
+
+/**
+ * paybox_dependencies
+ * Permet de charger des dépendances dans le controleur paybox
+**/
+
+/**
+ * load_product_crud
+ * charge l'objet CRUD a l'initialisation pour les produits
+**/
+
+/**
+ * nexo_commandes_columns
+ * Permet de modifier les colonnes par défaut sur la liste des ventes
+**/
+
+/**
+ * nexo_commandes_loaded
+ * Permet d'appliquer des actions personnalisées sur l'objet CRUD pour l'interface des commandes
+**/
+
+/**
+ * fetch_item
+ * @deprecated
+ * Permet de filtre des données lorsqu'elles sont envoyée pour récupérer un produit
+**/
+
+/**
+ * nexo_receipt_theme_path
+ * Permet de filtrer le chemin vers un template de facture
+**/
+
+/**
+ * nexo_receipt_theme
+ * Permet de filtrer la liste des options de template au choix
+**/
+
+/**
+ * saveorder_title_field
+ * Permet de modifier le titre dune commande durant la sauvegarder
+**/
+
+/**
+ * saveorder_confirm_condition
+ * Modifie les conditions de validation du titre d'une commande
+ **/
+
+/**
+ * order_history_title
+ * Modifie le template du titre dans le tableau de l'historique des commandes en attentes
+**/
+
+/**
+ * stores_controller_callback
+ * permet d'enregistrer un controller pour le multistore
+**/
+
+/**
+ * nexo_clients_fields
+ * Permet de modifier les champs des clients
+**/
+
+/**
+ * customers_crud_loaded
+ * permet de filtrer l'objet CRUD
+**/
+
+/**
+ * nexo_clients_columns
+ * permet de filtrer les colonnes des clients
+**/
+
+/**
+ * nexo_store_menus
+ * permet de modifier la vue du menu des boutiques
+**/
+
+/**
+ * nexo_checkout_item_url
+ * permet de modifier lurl des elements dun panier
+**/
+
+/**
+ * product_columns 
+ * permet de modifier les colonnes des produits
+**/
+
+/**
+ * nexo_checkout_col_1_view
+ * remplacer la vue de la colonne 1 [
+     'module'   =>  $1,
+     'path'     =>  $2
+ ]
+**/
+
+/**
+ * nexo_checkout_col_2_view
+ * remplacer la vue de la colonne deux
+**/
+
+/**
+ * nexo_demo_list
+ * permet d'ajouter des options dans la liste des démos
+**/
+
+/**
+ * checkout_header_menus_1
+ * Permet de modifier les menus affiché sur le point de ventes
+**/
+
+/**
+ * stores_list_menu
+ * Permet de filtrer les menus du mode multi boutique
+**/
+
+/**
+ * nexo_item_type
+ * Permet de filter les types de produits
+**/
+
+/**
+ * editable_stock_type
+ * Les types d'opération sur le stock qui sont susceptible d'être modifiée
+**/
+
+/**
+ * items_columns_updatable_after_supply
+ * colonnes qui sont mise à jour durant la modification de l'arrivages
+**/
+
+/**
+ * treat_as_sold_quantity
+ * Permet d'ajouter des types sur des produits dont la quantité restante est réduite durant la vente
+**/
+
+/**
+ * post_order_details
+ * Permet de filtrer les données des commandes soumisses
+**/
+
+/**
+ * put_order_details
+ * Permet de filtrer les données des commandes soumisses durant la modfiication
+**/
+
+/**
+ * receipt_after_item_name
+ * Permet d'injecter du code lorsque l'on affiche un produit dans la facture
+**/
+
+/**
+ * receipt_filter_item_price
+ * permet de filtrer le prix dun produit durant l'affichage du reçu
+**/
+
+/**
+ * put_order_item
+ * permet de filtrer un produit durant la mise à jour de la commande
+**/
+
+/**
+ * post_order_item
+ * permet de filtrer un produit durant la publication de la commande
+**/
+
+/**
+ * put_order_filter_item
+ * Permet de filter les produits au tout début de la boucle
+**/
+
+/**
+ * post_order_filter_item
+ * Permet de filter les produits au tout début de la boucle
+**/
+
+/**
+ * nexo_customers_basic_fields
+ * Filtre les champs des clients de l'onglet basics
+**/
+
+/**
+ * nexo_customers_show_basic_tab
+ * Afficher l'onglet basic
+**/
+
+/**
+ * nexo_customers_show_billing_tab
+ * Afficher l'onglet billing
+**/
+
+/**
+ * nexo_customers_show_delivery_tab
+ * Afficher l'onglet delivery
+**/
+
+/**
+* nexo_filters_customers_post_fields
+* Permet de filtrer les champs des clients durant la soumissions
+**/
+
+/**
+* nexo_filters_customers_put_fields
+* Permet de filtrer les champs des clients durant la soumissions
+**/
+
+/**
+ * nexo_filter_invoice_dom_tag_list
+ * permet de filtrer la liste des templates pour le reçu de vente
+**/
+
+/**
+ * nexo_filter_receipt_template
+ * Filter customer details
+**/
+
+/**
+ * pos_edited_items
+ * Filtre les produis ajoutés durant la modification d'une commande
+**/
+
+/**
+ * post_order_response
+ * Permet de filtrer la réponse lors de la publciation d'une commande
+**/
+
+/**
+ * put_order_response
+ * Permet de filtrer la réponse lors de la modification d'une commande
+**/
+
+/**
+ * loaded_order
+ * permet de filtrer la commande chargée pour modifiation
+**/
+
+/**
+ * receipt_items
+ * Permet de filtrer la liste des produits
+**/
+
+/**
+ * after_submit_order
+ * filter the result of the request, once it's submitted
+**/
+
+/** 
+ * nps_receipt_path
+ * Provide a path to access to the receipt NPS view.
+**/
+
+/**
+ * after_order_placed_details
+ * Provide details of order after it has been placed
+**/

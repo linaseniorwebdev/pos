@@ -1,0 +1,1529 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nexo Premium\n"
+"POT-Creation-Date: 2019-01-06 12:55+0100\n"
+"PO-Revision-Date: 2019-01-06 12:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: Tendoo Dev Team <carlosjohnsonluv2004@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_s\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: api/ApiNexoRegistersReports.php:33
+msgid ""
+"Impossible d'afficher le rapport pour une caisse actuellement ouverte. "
+"Veuillez fermer la caisse avant de continuer."
+msgstr ""
+"The report cannot be displayed for a currently open box. Please close the "
+"crate before continuing."
+
+#: api/ApiNexoRegistersReports.php:38
+msgid ""
+"Impossible d'afficher le rapport. Nous n'avons pas été en mesure de "
+"localiser la caisse. Veuillez rafraichir le rapport et essayer à nouveau."
+msgstr ""
+"The report could not be displayed. We were not able to locate the cashier. "
+"Please refresh the report and try again."
+
+#: api/ApiNexoRegistersReports.php:46
+msgid ""
+"Impossible d'afficher ce rapport sur une durée qui excède 31 jours. Veuillez "
+"réduire l'intervale de temps."
+msgstr ""
+"This report cannot be displayed for a duration that exceeds 31 days. Please "
+"reduce the time interval."
+
+#: controllers/NexoPremiumController.php:30
+#, fuzzy
+msgid "Rapport de suivi de stock"
+msgstr "Stock Tracker"
+
+#: controllers/NexoPremiumController.php:57
+#: controllers/NexoPremiumController.php:100
+#, fuzzy
+msgid "Erreur"
+msgstr "Error"
+
+#: controllers/NexoPremiumController.php:58
+#: controllers/NexoPremiumController.php:101
+#, fuzzy
+msgid ""
+"La date mentionnée est invalide. Le rapport sollicité ne peut se faire pour "
+"les jours à venir."
+msgstr ""
+"The date specified is invalid. The requested report can be done for the days "
+"to come."
+
+#: controllers/NexoPremiumController.php:69
+#, fuzzy
+msgid "Rapport journalier détaillé"
+msgstr "Detailed daily report"
+
+#: controllers/NexoPremiumController.php:73
+#, fuzzy
+msgid "Revenir en arrière"
+msgstr "Go back"
+
+#: controllers/NexoPremiumController.php:76 views/flux-de-la-tresorerie.php:7
+#: views/stats-des-ventes.php:14
+#, fuzzy
+msgid "Vider le cache"
+msgstr "Empty cache"
+
+#: controllers/NexoPremiumController.php:114 inc/Filters.php:99
+#, fuzzy
+msgid "Flux de trésorerie"
+msgstr "Cash flow"
+
+#: controllers/NexoPremiumController.php:162
+#, fuzzy
+msgid "Rapport des Ventes Annuelles"
+msgstr "The annual sales report"
+
+#: controllers/NexoPremiumController.php:184
+#, fuzzy
+msgid "Fiche de suivi de stock &mdash; Nexo POS"
+msgstr "Inventory Tracker &mdash; Nexo POS"
+
+#: controllers/NexoPremiumController.php:193 views/factures.php:10
+#, fuzzy
+msgid "Factures"
+msgstr "Invoices"
+
+#: controllers/NexoPremiumController.php:205
+#, php-format
+msgid ""
+"Assigner une dépense à un fournisseur. Assurez-vous <a href=\"%s\">d'avoir "
+"assigné la bonne catégorie</a> pour les comptes créditeurs des fournisseurs."
+msgstr ""
+"Assign a cost to a supplier. Be sure <a href=\"%s\">to have assigned the "
+"right category</a> for accounts payable to suppliers."
+
+#: controllers/NexoPremiumController.php:215
+#: controllers/NexoPremiumController.php:738
+msgid "Nom"
+msgstr "Name"
+
+#: controllers/NexoPremiumController.php:216 views/expenses_listing_dom.php:41
+msgid "Catégorie"
+msgstr "Category"
+
+#: controllers/NexoPremiumController.php:217
+#, fuzzy
+msgid "Prix de la facture"
+msgstr "Invoice price"
+
+#: controllers/NexoPremiumController.php:218
+#, fuzzy
+msgid "Référence"
+msgstr "Reference"
+
+#: controllers/NexoPremiumController.php:219
+#: controllers/NexoPremiumController.php:739 views/historique.php:33
+#, fuzzy
+msgid "Description"
+msgstr "Description"
+
+#: controllers/NexoPremiumController.php:220
+#, fuzzy
+msgid "Image"
+msgstr "Picture"
+
+#: controllers/NexoPremiumController.php:221
+#: controllers/NexoPremiumController.php:740
+#, fuzzy
+msgid "Auteur"
+msgstr "Author"
+
+#: controllers/NexoPremiumController.php:222
+#: controllers/NexoPremiumController.php:741
+#, fuzzy
+msgid "Date de création"
+msgstr "Creation date"
+
+#: controllers/NexoPremiumController.php:223
+#: controllers/NexoPremiumController.php:742
+#, fuzzy
+msgid "Date de modification"
+msgstr "Last modified date"
+
+#: controllers/NexoPremiumController.php:224
+msgid "Fournisseur"
+msgstr "﻿Supplier"
+
+#: controllers/NexoPremiumController.php:226
+msgid "Assigner la dépense à une categorie."
+msgstr "Assign the expense to a category."
+
+#: controllers/NexoPremiumController.php:227
+msgid "Si la dépense à une valeur, vous pouvez le définir sur ce champ."
+msgstr "If the expense to a value, you can set it to this field."
+
+#: controllers/NexoPremiumController.php:228
+msgid ""
+"La référence peut être le numéro d'une facture ou toute information qui "
+"permettrait d'identifier l'opération."
+msgstr ""
+"The reference can be the number of a bill or any information that would "
+"identify the operation."
+
+#: controllers/NexoPremiumController.php:297
+#, fuzzy
+msgid "Liste des factures"
+msgstr "Invoices List"
+
+#: controllers/NexoPremiumController.php:305
+msgid "Ajouter/modifier une facture"
+msgstr "Add / Edit Invoice"
+
+#: controllers/NexoPremiumController.php:331
+#, php-format
+msgid "<a href=\"%s\">Return</a>"
+msgstr "<a href=\"%s\">Return</a>"
+
+#: controllers/NexoPremiumController.php:335
+#, fuzzy, php-format
+#| msgid "Impossible de retrouver le fichier de sauvegarde."
+msgid "Impossible de charger le fournisseur. %s"
+msgstr "Unable to locate the backup file."
+
+#: controllers/NexoPremiumController.php:341 views/expenses_listing_dom.php:51
+#: views/sales_detailed_dom.php:44 views/sales_detailed_dom.php:147
+msgid "Montant"
+msgstr "Amount"
+
+#: controllers/NexoPremiumController.php:357
+#, php-format
+msgid "Paiement d'un fournisseur : %s"
+msgstr "Payment to a provider: %s"
+
+#: controllers/NexoPremiumController.php:396
+#: controllers/NexoPremiumController.php:425
+#: controllers/NexoPremiumController.php:488
+msgid "Vous n'avez pas accès à ce rapport"
+msgstr "You do not have access to this report"
+
+#: controllers/NexoPremiumController.php:411 inc/Filters.php:111
+msgid "Performances des caissiers"
+msgstr "Cashiers performance"
+
+#: controllers/NexoPremiumController.php:442
+msgid "Statistiques des clients"
+msgstr "Customers Statistics"
+
+#: controllers/NexoPremiumController.php:475
+msgid "Supprimer l'historique"
+msgstr "Delete history"
+
+#: controllers/NexoPremiumController.php:480
+msgid "Historique des activités"
+msgstr "User History Report"
+
+#: controllers/NexoPremiumController.php:505
+msgid "Réinitialisation de l'historique"
+msgstr "History Reset"
+
+#: controllers/NexoPremiumController.php:506
+#, php-format
+msgid ""
+"L'utilisateur <strong>%s</strong> à supprimé le contenu de l'historique des "
+"activités."
+msgstr "User <strong>%s</strong> deleted the content of the activity history."
+
+#: controllers/NexoPremiumController.php:511
+msgid "Vous n'avez pas accès à cette page"
+msgstr "You do not have access to this page"
+
+#: controllers/NexoPremiumController.php:543
+msgid "Les Meilleurs"
+msgstr "Best Sales"
+
+#: controllers/NexoPremiumController.php:633
+#, php-format
+msgid "Bénéfices et Pertes &mdash; %s"
+msgstr "Incomes and Losses &mdash; %s"
+
+#: controllers/NexoPremiumController.php:657
+#, php-format
+msgid "Liste des dépenses &mdash; %s"
+msgstr "Expenses Listings &mdash; %s"
+
+#: controllers/NexoPremiumController.php:690
+#, php-format
+msgid "Rapport des ventes détaillés &mdash; %s"
+msgstr "Detailed Sales Report &mdash; %s"
+
+#: controllers/NexoPremiumController.php:710
+msgid "Catégories des dépenses"
+msgstr "Expense categories"
+
+#: controllers/NexoPremiumController.php:730
+msgid "Catégories des factures"
+msgstr "Categories of invoices"
+
+#: controllers/NexoRegistersReport.php:19 inc/Filters.php:129
+#, fuzzy
+#| msgid "Historique des utilisateurs"
+msgid "Historique des sessions"
+msgstr "User History Report"
+
+#: inc/Actions.php:31
+msgid "Supprimer le cache"
+msgstr "Delete Cache"
+
+#: inc/Actions.php:216
+msgid "Création d'une nouvelle commande"
+msgstr "Creating a new order"
+
+#: inc/Actions.php:218
+#, php-format
+msgid "L'utilisateur %s a crée une nouvelle commande avec pour code : %s"
+msgstr "User%s created a new order with the following code:%s"
+
+#: inc/Actions.php:234
+msgid "Modification d'une commande"
+msgstr "Order Modification"
+
+#: inc/Actions.php:236
+#, php-format
+msgid "L'utilisateur %s a modifié une commande avec pour code : %s"
+msgstr "User%s modified an order with the following code:%s"
+
+#: inc/Actions.php:253
+msgid "Suppréssion d'une commande"
+msgstr "Deleting an order"
+
+#: inc/Actions.php:255
+#, php-format
+msgid "L'utilisateur %s a supprimé une commande avec pour identifiant : %s"
+msgstr "User%s removed an order with the following id:%s"
+
+#: inc/Actions.php:271
+msgid "Historique des utilisateurs"
+msgstr "User History Report"
+
+#: inc/Actions.php:276
+msgid "Sauvegarder les réglages"
+msgstr "Save settings"
+
+#: inc/Actions.php:290
+msgid "Souhaitez-vous activer l'historique des activités ?"
+msgstr "Would you like to activate the activity history?"
+
+#: inc/Actions.php:291
+msgid ""
+"Ceci peut très légèrement ralentir l'application, et prendre plus d'espace "
+"dans votre base de données."
+msgstr ""
+"This may slightly slow down the application, and take more space in your "
+"database."
+
+#: inc/Actions.php:293
+msgid "Veuillez choisir une option"
+msgstr "Choose an option"
+
+#: inc/Actions.php:294
+msgid "Oui"
+msgstr "Yes"
+
+#: inc/Actions.php:295
+msgid "Non"
+msgstr "No"
+
+#: inc/Filters.php:54
+msgid "Rapports"
+msgstr "Reports"
+
+#: inc/Filters.php:73
+msgid "Rapport Détaillés"
+msgstr "Detailed Report"
+
+#: inc/Filters.php:79
+msgid "Les meilleurs"
+msgstr "Best Sales"
+
+#: inc/Filters.php:84
+msgid "Journalier"
+msgstr "Daily Sales"
+
+#: inc/Filters.php:89
+msgid "Bénéfices et Pertes"
+msgstr "Incomes and Losses"
+
+#: inc/Filters.php:94
+msgid "Listing des dépenses"
+msgstr "Expenses Listings"
+
+#: inc/Filters.php:105
+#, fuzzy
+msgid "Ventes Annuelles"
+msgstr "Annual Sales"
+
+#: inc/Filters.php:117
+msgid "Statistique des clients"
+msgstr "Customers Statistics"
+
+#: inc/Filters.php:123
+#, fuzzy
+msgid "Fiche de Suivi de Stocks"
+msgstr "Inventory tracking sheet"
+
+#: inc/Filters.php:137
+msgid "Dépenses"
+msgstr "Expenses"
+
+#: inc/Filters.php:149
+msgid "Liste des dépenses"
+msgstr "Expenses List"
+
+#: inc/Filters.php:154
+msgid "Nouvelle dépense"
+msgstr "New Expense"
+
+#: inc/Filters.php:160 views/fiche-de-suivi/by-categories.php:33
+#, fuzzy
+msgid "Categories"
+msgstr "Categories"
+
+#: inc/Filters.php:164
+msgid "Ajouter une categorie"
+msgstr "Add a category"
+
+#: inc/UI.php:24
+msgid "Name"
+msgstr "Name"
+
+#: language/lines.php:2
+msgid "Impossible de retrouver le fichier de sauvegarde."
+msgstr "Unable to locate the backup file."
+
+#: language/lines.php:3
+msgid "La restauration s'est déroulé correctement."
+msgstr "The restoration was successful."
+
+#: language/lines.php:4
+msgid ""
+"Vous devez fournir une catégorie pour les dépenses relatives au paiement des "
+"fournisseurs."
+msgstr ""
+"You must provide a category for expenditures related to the payment of "
+"suppliers."
+
+#: nexo_premium.php:43
+#, fuzzy
+msgid "Nexo doit être installé pour que ce module fonctionne correctement."
+msgstr "Nexo must be installed to make this module work correctly."
+
+#: nexo_premium.php:52
+#, fuzzy
+msgid "Nexo doit être activé pour que ce module fonctionne correctement."
+msgstr "Nexo must be enabled for this module working properly."
+
+#: views/best_of/content.php:3 views/cashier-performances.php:35
+#: views/customers-statistics.php:35 views/expenses_listing_dom.php:9
+#: views/profit_and_lost_dom.php:11 views/registers/dom.php:38
+#: views/sales_detailed_dom.php:9 views/stock-tracking/dom.php:10
+msgid "Date de départ"
+msgstr "Start date"
+
+#: views/best_of/content.php:8 views/cashier-performances.php:40
+#: views/customers-statistics.php:40 views/expenses_listing_dom.php:16
+#: views/profit_and_lost_dom.php:18 views/registers/dom.php:49
+#: views/sales_detailed_dom.php:14 views/stock-tracking/dom.php:21
+msgid "Date de fin"
+msgstr "End date"
+
+#: views/best_of/content.php:12 views/cashier-performances.php:44
+#: views/customers-statistics.php:44 views/sales_detailed_dom.php:25
+msgid "Afficher les résultats"
+msgstr "Display Results"
+
+#: views/best_of/content.php:15
+msgid "Filter par"
+msgstr "Filter by"
+
+#: views/best_of/content.php:18
+msgid "quantité"
+msgstr "quantity"
+
+#: views/best_of/content.php:19
+msgid "par chiffre d'affaire"
+msgstr "Turnover"
+
+#: views/best_of/content.php:26
+#, fuzzy
+msgid "Désactiver le cache"
+msgstr "Empty cache"
+
+#: views/best_of/content.php:35
+msgid "Produits"
+msgstr "Items"
+
+#: views/best_of/content.php:37
+msgid "Catégories"
+msgstr "Categories"
+
+#: views/best_of/content.php:38
+msgid "Livraisons"
+msgstr "Deliveries"
+
+#: views/best_of/content.php:60
+msgid "Chargement..."
+msgstr "Loading..."
+
+#: views/best_of/content.php:68
+msgid "Une erreur s'est produite durant le chargement ! Veuillez recommencer"
+msgstr "An error occurred during charging! Please try again"
+
+#: views/cashier-dashboard.php:14
+#, fuzzy
+msgid "Ventes Journalières"
+msgstr "Sales"
+
+#: views/cashier-dashboard.php:33
+msgid "Commands complètes"
+msgstr "Full orders"
+
+#: views/cashier-dashboard.php:50
+msgid "Commandes Partielles"
+msgstr "Partials Orders"
+
+#: views/cashier-dashboard.php:67
+msgid "Commandes Impayées"
+msgstr "Unpaid Orders"
+
+#: views/cashier-dashboard.php:83 views/cashier-dashboard.php:142
+msgid "Ventes de la semaine"
+msgstr "Sales of the week"
+
+#: views/cashier-dashboard.php:105
+#, fuzzy
+#| msgid "Historique des utilisateurs"
+msgid "Historique des caisses"
+msgstr "User History Report"
+
+#: views/cashier-dashboard.php:132
+msgid "Lundi"
+msgstr "Monday"
+
+#: views/cashier-dashboard.php:133
+msgid "Mardi"
+msgstr "Tuesday"
+
+#: views/cashier-dashboard.php:134
+msgid "Mercredi"
+msgstr "Wednesday"
+
+#: views/cashier-dashboard.php:135
+msgid "Jeudi"
+msgstr "Thursday"
+
+#: views/cashier-dashboard.php:136
+msgid "Vendredi"
+msgstr "Friday"
+
+#: views/cashier-dashboard.php:137
+msgid "Samedi"
+msgstr "Saturday"
+
+#: views/cashier-dashboard.php:138
+msgid "Dimanche"
+msgstr "Sunday"
+
+#: views/cashier-performances.php:14
+msgid ""
+"Ne récupère que les caissiers et non tous les utilisateurs qui ont la "
+"permission de vendre."
+msgstr "Recovers only cashiers and not all users who have permission to sell."
+
+#: views/cashier-performances.php:18
+msgid "Veuillez choisir un caissier"
+msgstr "Please choose a cashier"
+
+#: views/cashier-performances.php:27
+msgid "Aucun caissier n'est disponible"
+msgstr "No cashier available"
+
+#: views/cashier-performances.php:92 views/customers-statistics.php:92
+msgid "Impossible d'afficher les données pour cette sélection."
+msgstr "Unable to display the data for that selection."
+
+#: views/cashier-performances.php:109
+msgid "Une erreur s'est produite durant l'affichage du rapport"
+msgstr "An error occurred while displaying the report"
+
+#: views/customers-statistics.php:14
+msgid "Affiche les achats réalisées par un client par mois"
+msgstr "Displays sales from a customer per month"
+
+#: views/customers-statistics.php:18
+msgid "Veuillez choisir un client"
+msgstr "Please choose a customer."
+
+#: views/customers-statistics.php:27
+msgid "Aucun client disponible"
+msgstr "No customer available"
+
+#: views/customers-statistics.php:104
+msgid ""
+"Une erreur s'est produite durant l'affichage du rapport. Assurez-vous de "
+"choisir un bon interval de temps. Il doit y avoir au minimum 1 mois "
+"d'intervale entre les dates."
+msgstr ""
+"An error occurred while displaying the report. Make sure you choose a good "
+"time interval. There must be at least 1-month interval between dates."
+
+#: views/dashboard-content.php:8
+#, fuzzy
+msgid "Ventes réalisées"
+msgstr "Sales"
+
+#: views/dashboard-content.php:10 views/dashboard-content.php:43
+#: views/dashboard-content.php:77 views/dashboard-content.php:108
+msgid "Aujourd'hui"
+msgstr "Today"
+
+#: views/dashboard-content.php:17 views/dashboard-content.php:51
+#: views/dashboard-content.php:83 views/dashboard-content.php:114
+msgid "Hier"
+msgstr "Yesterday"
+
+#: views/dashboard-content.php:22 views/dashboard-content.php:56
+#: views/dashboard-content.php:88 views/dashboard-content.php:119
+#: views/fiche-de-suivi/by-categories.php:46
+#: views/flux-de-la-tresorerie.php:127 views/profit-and-lost-vars.php:4
+#: views/profit_and_lost_script.php:8 views/rapport-journalier-detaille.php:147
+#: views/sales_detailed_dom.php:136 views/sales_detailed_dom.php:146
+#: views/stats-des-ventes.php:124 views/stats-des-ventes.php:137
+#, fuzzy
+msgid "Total"
+msgstr "Total"
+
+#: views/dashboard-content.php:32 views/dashboard-content.php:66
+#: views/dashboard-content.php:98 views/dashboard-content.php:129
+msgid "Plus de détails"
+msgstr "View Detail"
+
+#: views/dashboard-content.php:41
+#, fuzzy
+msgid "Chiffre d'affaire globale"
+msgstr "Global turnover"
+
+#: views/dashboard-content.php:75
+msgid "Clients"
+msgstr "Customers"
+
+#: views/dashboard-content.php:107
+msgid "Créances"
+msgstr "Receivables"
+
+#: views/expenses_listing_dom.php:24 views/profit_and_lost_dom.php:26
+msgid "Charger"
+msgstr "Load"
+
+#: views/expenses_listing_dom.php:28 views/flux-de-la-tresorerie.php:7
+#: views/profit_and_lost_dom.php:30 views/registers/dom.php:58
+#: views/sales_detailed_dom.php:28 views/stats-des-ventes.php:14
+#: views/stock-tracking/dom.php:30
+#, fuzzy
+msgid "Imprimer"
+msgstr "Print"
+
+#: views/expenses_listing_dom.php:38
+msgid "Dates"
+msgstr "Date"
+
+#: views/expenses_listing_dom.php:45 views/profit-and-lost-vars.php:65
+#: views/profit_and_lost_script.php:69
+msgid "Nom du produit"
+msgstr "Item Name"
+
+#: views/expenses_listing_dom.php:48
+msgid "Références"
+msgstr "References"
+
+#: views/expenses_listing_dom.php:76
+msgid ""
+"Aucun résultat disponible. Veuillez choisir un intervalle de temps différent."
+msgstr "There are no results. Please choose a different time interval."
+
+#: views/expenses_listing_script.php:36 views/profit_and_lost_script.php:422
+#: views/profit_and_lost_script.php:537
+msgid "Attention"
+msgstr "Warning"
+
+#: views/expenses_listing_script.php:36
+msgid ""
+"Vous devez définir un intervalle de temps précis pour avoir des résultats"
+msgstr "You must set a specific time interval for results"
+
+#: views/fiche-de-suivi-dom.php:6
+msgid "Par catégorie"
+msgstr "By Category Names"
+
+#: views/fiche-de-suivi/by-categories.php:3
+msgid "Choisir l'arrivage"
+msgstr "Choose Delivery"
+
+#: views/fiche-de-suivi/by-categories.php:10
+#, fuzzy, php-format
+#| msgid "Liste des dépenses &mdash; %s"
+msgid "Livraison : %s, effectuée le %s &mdash; %s"
+msgstr "Expenses Listings &mdash; %s"
+
+#: views/fiche-de-suivi/by-categories.php:18
+#, fuzzy
+msgid "Aucun arrivage disponible"
+msgstr "No shipment available"
+
+#: views/fiche-de-suivi/by-categories.php:24
+msgid ""
+"Ce tableau vous permet de suivre les approvisionnements et les sorties d'une "
+"collection, tout en vous permettant de voir les quantités restantes dans le "
+"stock général."
+msgstr ""
+"This table allows you to track supply and outputs for a specified "
+"collection, while you show the remaining quantities in the general stock."
+
+#: views/fiche-de-suivi/by-categories.php:25
+#, fuzzy
+msgid ""
+"Les stocks affichés ici, ne sont que les stocks des produits dont les "
+"catégories sont situées au fond de la hierarchie des catégories. Les "
+"produits sauvegardés dans des catégories intermédiaires seront ignorés."
+msgstr ""
+"Posted here, stocks are just the stocks of the products whose categories are "
+"located at the bottom of the hierarchy of categories. Products stored in "
+"intermediate categories will be ignored."
+
+#: views/fiche-de-suivi/by-categories.php:30
+#, fuzzy
+msgid "Fiche de suivi de stock"
+msgstr "Stock Tracker"
+
+#: views/fiche-de-suivi/by-categories.php:34
+msgid "Entrées"
+msgstr "Entries"
+
+#: views/fiche-de-suivi/by-categories.php:35
+#: views/fiche-de-suivi/by-categories.php:37
+#: views/fiche-de-suivi/by-categories.php:39
+msgid "Valeur"
+msgstr "Value"
+
+#: views/fiche-de-suivi/by-categories.php:36
+#, fuzzy
+msgid "Sorties"
+msgstr "Outings"
+
+#: views/fiche-de-suivi/by-categories.php:38
+msgid "Stock Final"
+msgstr "Final Stock"
+
+#: views/flux-de-la-tresorerie.php:30 views/stats-des-ventes.php:30
+#, fuzzy
+msgid "Janvier"
+msgstr "January"
+
+#: views/flux-de-la-tresorerie.php:31 views/stats-des-ventes.php:31
+#, fuzzy
+msgid "Février"
+msgstr "February"
+
+#: views/flux-de-la-tresorerie.php:32 views/stats-des-ventes.php:32
+#, fuzzy
+msgid "Mars"
+msgstr "March"
+
+#: views/flux-de-la-tresorerie.php:33 views/stats-des-ventes.php:33
+#, fuzzy
+msgid "Avril"
+msgstr "April"
+
+#: views/flux-de-la-tresorerie.php:34 views/stats-des-ventes.php:34
+#, fuzzy
+msgid "Mai"
+msgstr "May"
+
+#: views/flux-de-la-tresorerie.php:35 views/stats-des-ventes.php:35
+#, fuzzy
+msgid "Juin"
+msgstr "June"
+
+#: views/flux-de-la-tresorerie.php:36 views/stats-des-ventes.php:36
+#, fuzzy
+msgid "Juillet"
+msgstr "July"
+
+#: views/flux-de-la-tresorerie.php:37 views/stats-des-ventes.php:37
+#, fuzzy
+msgid "Aout"
+msgstr "August"
+
+#: views/flux-de-la-tresorerie.php:38 views/stats-des-ventes.php:38
+#, fuzzy
+msgid "Septembre"
+msgstr "September"
+
+#: views/flux-de-la-tresorerie.php:39 views/stats-des-ventes.php:39
+#, fuzzy
+msgid "Octobre"
+msgstr "October"
+
+#: views/flux-de-la-tresorerie.php:40 views/stats-des-ventes.php:40
+#, fuzzy
+msgid "Novembre"
+msgstr "November"
+
+#: views/flux-de-la-tresorerie.php:41 views/stats-des-ventes.php:41
+msgid "Decembre"
+msgstr "December"
+
+#: views/flux-de-la-tresorerie.php:45
+msgid "Recettes(+)"
+msgstr "Income(+)"
+
+#: views/flux-de-la-tresorerie.php:49
+#, fuzzy
+msgid "Dépenses(-)"
+msgstr "Spending"
+
+#: views/flux-de-la-tresorerie.php:51 views/rapport-journalier-detaille.php:251
+#, fuzzy
+msgid "Solde Final"
+msgstr "Final balance"
+
+#: views/flux-de-la-tresorerie.php:63 views/flux-de-la-tresorerie.php:66
+#: views/stats-des-ventes.php:52 views/stats-des-ventes.php:55
+msgid "Spécifier une date"
+msgstr "Specify a date"
+
+#: views/flux-de-la-tresorerie.php:68 views/stats-des-ventes.php:57
+#, php-format
+msgid "Exemple : %s"
+msgstr "Example: %s"
+
+#: views/flux-de-la-tresorerie.php:72 views/stats-des-ventes.php:61
+msgid "Afficher le rapport"
+msgstr "View Report"
+
+#: views/flux-de-la-tresorerie.php:86 views/stats-des-ventes.php:75
+msgid "Vous devez spécifier une date"
+msgstr "You must specify a Date"
+
+#: views/flux-de-la-tresorerie.php:95 views/rapport-journalier-detaille.php:25
+#: views/stats-des-ventes.php:84
+#, fuzzy
+msgid "Nom indisponible"
+msgstr "Name Not Available"
+
+#: views/flux-de-la-tresorerie.php:99
+#, fuzzy, php-format
+msgid "Flux de trésorerie pour %s"
+msgstr "Cash flows for %s"
+
+#: views/flux-de-la-tresorerie.php:104 views/rapport-journalier-detaille.php:34
+#: views/stats-des-ventes.php:92
+#, fuzzy, php-format
+msgid "Document imprimé par : %s"
+msgstr "Printed by: %s"
+
+#: views/flux-de-la-tresorerie.php:110
+msgid "Flux de trésorerie des activités opérationnelles."
+msgstr "Cash flow from operational activities."
+
+#: views/flux-de-la-tresorerie.php:116
+#, fuzzy
+msgid "Mouvement annuel de la trésorerie"
+msgstr "Annual movement of cash"
+
+#: views/flux-de-la-tresorerie.php:119
+#, fuzzy
+msgid "Libellé / Mois"
+msgstr "Wording / month"
+
+#: views/flux-de-la-tresorerie.php:488 views/stats-des-ventes.php:436
+#, fuzzy
+msgid "Chargement en cours..."
+msgstr "Loading in progress…"
+
+#: views/historique.php:10
+msgid "Tableau des activités des utilisateurs"
+msgstr "Table of user activities"
+
+#: views/historique.php:28
+#, php-format
+msgid "L'historique des activités n'est pas <a href=\"%s\">activée</a>"
+msgstr "The activity history is not <a href=\"%s\">activated</a>"
+
+#: views/historique.php:33
+msgid "Title"
+msgstr "Title"
+
+#: views/historique.php:33
+msgid "Effectué le"
+msgstr "Performed on"
+
+#: views/profit-and-lost-vars.php:55 views/profit_and_lost_script.php:59
+msgid "Date"
+msgstr "Date"
+
+#: views/profit-and-lost-vars.php:60 views/profit_and_lost_script.php:64
+#, fuzzy
+#| msgid "Commandes Cash"
+msgid "Commande"
+msgstr "Cash Orders"
+
+#: views/profit-and-lost-vars.php:70 views/profit_and_lost_script.php:74
+msgid "UGS"
+msgstr "SKU"
+
+#: views/profit-and-lost-vars.php:75 views/profit_and_lost_script.php:79
+#: views/rapport-journalier-detaille.php:75
+#, fuzzy
+msgid "Quantité"
+msgstr "Quantity"
+
+#: views/profit-and-lost-vars.php:80 views/profit_and_lost_script.php:84
+msgid "Prix de vente brut"
+msgstr "Gross Sale Price"
+
+#: views/profit-and-lost-vars.php:85 views/profit_and_lost_script.php:89
+msgid "Remise (%)"
+msgstr "Discount (%)"
+
+#: views/profit-and-lost-vars.php:90 views/profit_and_lost_script.php:94
+msgid "Remise"
+msgstr "Discount"
+
+#: views/profit-and-lost-vars.php:95 views/profit_and_lost_script.php:99
+msgid "Prix de vente net"
+msgstr "Net Sales Price"
+
+#: views/profit-and-lost-vars.php:100 views/profit_and_lost_script.php:104
+msgid "Prix d'achat"
+msgstr "Buying price"
+
+#: views/profit-and-lost-vars.php:105 views/profit_and_lost_script.php:109
+msgid "Bénéfice"
+msgstr "Profit"
+
+#: views/profit_and_lost_dom.php:34
+msgid "Exporter CSV"
+msgstr "Export CSV"
+
+#: views/profit_and_lost_dom.php:62
+msgid ""
+"Aucun résultat à afficher. Veuillez choisir un interval de temps différent."
+msgstr "No results to display. Please choose a different time interval."
+
+#: views/profit_and_lost_script.php:417
+msgid "Rapport des bénéfices et des pertes"
+msgstr "Incomes and Losses Reports"
+
+#: views/profit_and_lost_script.php:422
+msgid ""
+"Aucune données disponible pour l'impression. Veuillez afficher des résultats "
+"en premier"
+msgstr "No data available for printing. Please load data first."
+
+#: views/profit_and_lost_script.php:537
+msgid "Vous devez sélectionner une date valide"
+msgstr "You must select a valid date"
+
+#: views/providers/pay-dom.php:7
+msgid "Somme à verser"
+msgstr "Amount to be paid"
+
+#: views/providers/pay-dom.php:13
+msgid "Définir la somme qui sera versé pour le compte du fournisseur."
+msgstr "Define the sum that will be paid on behalf of the supplier."
+
+#: views/providers/pay-dom.php:19
+msgid "Fournir des détails sur l'opération"
+msgstr "Provide details on the operation"
+
+#: views/providers/pay-dom.php:22
+msgid "Enregistrer le paiement"
+msgstr "Save Payment"
+
+#: views/providers/pay-dom.php:23
+msgid "Annuler"
+msgstr "Cancel"
+
+#: views/rapport-journalier-detaille.php:29
+#, fuzzy, php-format
+msgid "Rapport journalier détaillé <br> pour le %s"
+msgstr "Detailed daily report<br>for the %s"
+
+#: views/rapport-journalier-detaille.php:40
+msgid ""
+"Ensemble des activités effectuées par la caisse durant une période "
+"déterminée."
+msgstr "All activities performed by the checkout during a specified period."
+
+#: views/rapport-journalier-detaille.php:51
+msgid ""
+"Selectionnez la caisse dont vous souhaitez afficher le rapport journalier"
+msgstr "Select the register from which you want to view the daily report"
+
+#: views/rapport-journalier-detaille.php:54
+msgid "Faites un choix"
+msgstr "Make a choice"
+
+#: views/rapport-journalier-detaille.php:67
+#, fuzzy
+msgid "Récapitulatif des recettes"
+msgstr "Summary of revenue"
+
+#: views/rapport-journalier-detaille.php:72
+#, fuzzy
+msgid "Type de documents"
+msgstr "Document type"
+
+#: views/rapport-journalier-detaille.php:78
+#, fuzzy, php-format
+msgid "Chiffre d'affaire collectif (%s)"
+msgstr "Collective turnover (%s)"
+
+#: views/rapport-journalier-detaille.php:85
+msgid "Commandes Cash"
+msgstr "Cash Orders"
+
+#: views/rapport-journalier-detaille.php:92
+msgid "Commandes Avance"
+msgstr "Advance Orders"
+
+#: views/rapport-journalier-detaille.php:99
+msgid "Commandes Devis"
+msgstr "Quote Order"
+
+#: views/rapport-journalier-detaille.php:106 views/sales_detailed_dom.php:107
+msgid "Commandes Remboursées"
+msgstr "Refunded orders"
+
+#: views/rapport-journalier-detaille.php:115
+msgid "Taxes collectées"
+msgstr "Taxes"
+
+#: views/rapport-journalier-detaille.php:124
+msgid "Bonus des prix fictifs"
+msgstr "All Shadow Prices"
+
+#: views/rapport-journalier-detaille.php:133
+msgid "Revenu journalier"
+msgstr "Daily Income"
+
+#: views/rapport-journalier-detaille.php:140
+msgid "Revenu exigible"
+msgstr "Due Income"
+
+#: views/rapport-journalier-detaille.php:156
+#: views/rapport-journalier-detaille.php:162
+#, fuzzy
+msgid "Récapitulatif des dépenses"
+msgstr "Summary of expenditures"
+
+#: views/rapport-journalier-detaille.php:167
+msgid "Nom des documents"
+msgstr "Name of documents"
+
+#: views/rapport-journalier-detaille.php:170
+#: views/rapport-journalier-detaille.php:205
+#, fuzzy, php-format
+msgid "Montant (%s)"
+msgstr "Amount (%s)"
+
+#: views/rapport-journalier-detaille.php:177
+msgid "Remise + Rabais + Ristourne"
+msgstr "All discounts type"
+
+#: views/rapport-journalier-detaille.php:185
+#, fuzzy
+msgid "Total dépense"
+msgstr "Total expenditure"
+
+#: views/rapport-journalier-detaille.php:194
+msgid ""
+"Bilan de la trésorerie<br><br>Chiffre d'Affaire Net = ( Commandes Cash -  "
+"( Remise + Rabais + Ristourne ) )"
+msgstr ""
+"Balance of cash <br><br> Net business turnover = (Cash Orders -  Discount )"
+
+#: views/rapport-journalier-detaille.php:202
+msgid "Bilan tresorerie"
+msgstr "Cash Balance"
+
+#: views/rapport-journalier-detaille.php:221
+#, fuzzy
+msgid "Solde Initial"
+msgstr "Initial balance"
+
+#: views/rapport-journalier-detaille.php:230
+msgid "Recettes (+)"
+msgstr "Income(+)"
+
+#: views/rapport-journalier-detaille.php:236
+msgid "Dépenses (-)"
+msgstr "Expenses (-)"
+
+#: views/rapport-journalier-detaille.php:260
+msgid "Chiffre d'affaire net (*)"
+msgstr "Turnover(*)"
+
+#: views/rapport-journalier-detaille.php:339
+msgid "Une erreur s'est produite durant la récupération des caisses"
+msgstr "An error occurred while loading registers"
+
+#: views/rapport-journalier-detaille.php:530
+msgid "Cette caisse n'a pas été fermée en ce jour."
+msgstr "This register has not been closed on that day."
+
+#: views/rapport-journalier-detaille.php:534
+msgid "Cette caisse n'a pas été ouverte en ce jour"
+msgstr "This register has not been opened on that day."
+
+#: views/registers/dom.php:8
+msgid "Caissier"
+msgstr "Cashier"
+
+#: views/registers/dom.php:23
+msgid "Caisse Enregistreuse"
+msgstr "Cash register"
+
+#: views/registers/dom.php:55 views/stock-tracking/dom.php:27
+msgid "Générer le rapport"
+msgstr "Generate report"
+
+#: views/registers/dom.php:64
+msgid ""
+"Ce rapport est expérimentale. Ses données ne devrait être utilisées qu'a des "
+"fins de tests. Vous pouvez donc partager vos avis, en envoyant un email à "
+"notre addresse : contact@nexopos.com"
+msgstr ""
+"This report is experimental. Its data should only be used for testing "
+"purposes. You can therefore share your opinions, by sending an email to our "
+"address: contact@nexopos.com"
+
+#: views/registers/dom.php:78
+msgid "Opération"
+msgstr "Action"
+
+#: views/registers/dom.php:79
+#, fuzzy
+#| msgid "Détaillé"
+msgid "Détails"
+msgstr "Detailed"
+
+#: views/registers/dom.php:84
+msgid "Durée de session"
+msgstr "Session length"
+
+#: views/registers/dom.php:88
+msgid "Durée d'inactivitée"
+msgstr "Idle time"
+
+#: views/registers/dom.php:92
+msgid "Temps de travail"
+msgstr "Working time"
+
+#: views/registers/dom.php:96
+msgid "Montant à l'ouverture"
+msgstr "Opening amount"
+
+#: views/registers/dom.php:100
+msgid "Montant à la fermeture"
+msgstr "Closing amount"
+
+#: views/registers/dom.php:104
+msgid "Montant Attendu"
+msgstr "Expected amount"
+
+#: views/registers/dom.php:113
+msgid ""
+"Aucune information à afficher. Veuillez choisir un caissier, une caisse "
+"enregistreuse et un intervalle de temps."
+msgstr ""
+"No information to display. Please choose a cashier, cash register and time "
+"interval."
+
+#: views/registers/dom.php:122
+msgid "Une erreur s'est produite !"
+msgstr "An error has occurred!"
+
+#: views/registers/dom.php:123
+msgid ""
+"Vous devez choisir un caissier et une caisse enregistreuse avant d'afficher "
+"le rapport"
+msgstr ""
+"You must choose a cashier and cash register before displaying the report"
+
+#: views/restore.php:17
+msgid ""
+"La restauration supprime le contenu actuel et le remplace par celui du "
+"fichier de sauvegarde. Vous devez envisager de sauvegarder l'état actuel de "
+"la boutique avant de faire une restauration. Seuls les fichiers au format \"."
+"zip\" sont acceptés."
+msgstr ""
+"The restoration removes the current contents and replaces it with the backup "
+"file. You should consider saving the current state of the shop before making "
+"a restore. Only files in the format \".zip\" are accepted."
+
+#: views/restore.php:26
+msgid "Prefixe à utiliser"
+msgstr "Prefix to use"
+
+#: views/restore.php:27
+msgid "Prefixe à remplacer"
+msgstr "Prefix to replace"
+
+#: views/restore.php:31
+msgid "Veuillez envoyer le fichier de restauration"
+msgstr "Please send the restore file"
+
+#: views/restore.php:33
+msgid "Restaurer"
+msgstr "Restore"
+
+#: views/sales_detailed_dom.php:19
+msgid "Choisir le format"
+msgstr "Choose Format"
+
+#: views/sales_detailed_dom.php:21
+msgid "Détaillé"
+msgstr "Detailed"
+
+#: views/sales_detailed_dom.php:22
+msgid "Condensé"
+msgstr "Condensed"
+
+#: views/sales_detailed_dom.php:37
+msgid "Rapport des ventes détaillées"
+msgstr "Detailed Sales Report"
+
+#: views/sales_detailed_dom.php:43
+msgid "Entrée"
+msgstr "Entries"
+
+#: views/sales_detailed_dom.php:58
+msgid "Remise au pourcentage"
+msgstr "Percentage Discount"
+
+#: views/sales_detailed_dom.php:67
+msgid "Remise fixe"
+msgstr "Fixed Discount"
+
+#: views/sales_detailed_dom.php:80
+msgid "Remboursement"
+msgstr "Refund"
+
+#: views/sales_detailed_dom.php:89
+msgid ""
+"Il n'y a rien à afficher aujourd'hui, veuillez choisir un interval de temps "
+"différent."
+msgstr ""
+"There is nothing to show today, please choose a different time interval."
+
+#: views/sales_detailed_dom.php:97
+msgid "Analyse des commandes"
+msgstr "Order Analysis"
+
+#: views/sales_detailed_dom.php:103
+msgid "Commandes Complètes"
+msgstr "Complete orders"
+
+#: views/sales_detailed_dom.php:115
+msgid "Commandes Partiellement Remboursées"
+msgstr "Partially reimbursed orders"
+
+#: views/sales_detailed_dom.php:124
+msgid "Analyse des paiements"
+msgstr "Analysis of payments"
+
+#: views/sales_detailed_dom.php:145
+msgid "Autres Statistiques"
+msgstr "Other Stats"
+
+#: views/sales_detailed_dom.php:152
+msgid "Moyenne des commandes"
+msgstr "Average Orders"
+
+#: views/sales_detailed_dom.php:157
+msgid "Articles par commandes"
+msgstr "Items per orders"
+
+#: views/sales_detailed_dom.php:162
+msgid "Moyenne des prix par articles"
+msgstr "Average price per items"
+
+#: views/sales_detailed_dom.php:168 views/sales_detailed_dom.php:186
+msgid ""
+"Aucune information à afficher. Veuillez choisir un interval de date correcte."
+msgstr "No information to display. Please select a proper date interval."
+
+#: views/sales_detailed_dom.php:176
+msgid "Ventes par Staff"
+msgstr "Sales by Staff"
+
+#: views/stats-des-ventes.php:87
+#, fuzzy, php-format
+msgid "Statistiques des ventes <br> pour %s"
+msgstr "Sales statistics<br>for %s"
+
+#: views/stats-des-ventes.php:97
+#, fuzzy
+msgid ""
+"Aperçu mensuel de l'etat des ventes d'articles selon la hierarchie des "
+"catégories. Tous les montants affichés sont brut."
+msgstr ""
+"Monthly overview of the State of sales according to the hierarchy of "
+"categories. All amounts shown are gross."
+
+#: views/stats-des-ventes.php:104
+#, fuzzy
+msgid "Statistique des ventes"
+msgstr "Sales Statistics"
+
+#: views/stats-des-ventes.php:112
+#, fuzzy, php-format
+msgid "Level %s"
+msgstr "Level %s"
+
+#: views/stock-tracking/dom.php:38
+msgid ""
+"Ce rapport vous permet d'afficher le flux du stock entrant et sortant "
+"pendant une période précise avec la valeur de celle-ci."
+msgstr ""
+"This report allows you to view the flow of the incoming and outgoing "
+"inventory for a specific period of time with the value of the stock."
+
+#: views/stock-tracking/dom.php:40
+msgid "Suivi de l'inventaire par catégorie"
+msgstr "Inventory Tracking by Category"
+
+#: views/stock-tracking/dom.php:45
+#, fuzzy
+msgid "Categorie"
+msgstr "Categories"
+
+#: views/stock-tracking/dom.php:46
+msgid "Stock Entrant"
+msgstr "Incoming Stock"
+
+#: views/stock-tracking/dom.php:47
+msgid "Valeur Stock Entrant "
+msgstr "Inbound Stock Value"
+
+#: views/stock-tracking/dom.php:48
+msgid "Stock Sortant"
+msgstr "Outgoing Stock"
+
+#: views/stock-tracking/dom.php:49
+msgid "Valeur Stock Sortant"
+msgstr "Outgoing Stock value"
+
+#~ msgid "Commandes Comptant"
+#~ msgstr "Cash Orders"
+
+#, fuzzy
+#~ msgid "Statistiques des ventes"
+#~ msgstr "Sales Analysis"
+
+#~ msgid "Unable to locate the provider. %s"
+#~ msgstr "Unable to locate the provider. %s"
+
+#~ msgid "Disable Cache"
+#~ msgstr "Disable Cache"
+
+#, fuzzy
+#~ msgid "Cette page est introuvable"
+#~ msgstr "Oops! That page can&rsquo;t be found."
+
+#~ msgid "Sauvegardes"
+#~ msgstr "Backups"
+
+#~ msgid "Emplacement du fichier"
+#~ msgstr "File Location"
+
+#~ msgid "Télécharger la sauvegarde"
+#~ msgstr "Download Backup"
+
+#~ msgid "Liste des sauvegardes"
+#~ msgstr "Backup list"
+
+#~ msgid "Ajouter une sauvegarde"
+#~ msgstr "Add a backup"
+
+#~ msgid "Edition une sauvegarde"
+#~ msgstr "Backup Edition"
+
+#~ msgid "Sauvegarde Base de donnée Nexo POS"
+#~ msgstr "Backup Database Nexo POS"
+
+#~ msgid "Restauration"
+#~ msgstr "Restoring"
+
+#~ msgid "Maintenance & Historique"
+#~ msgstr "Maintenance & History"
+
+#~ msgid "Expenses categories"
+#~ msgstr "Expenses categories"
+
+#~ msgid "Désignation des documents"
+#~ msgstr "Documents Names"
+
+#~ msgid "Moyenne des pris par articles"
+#~ msgstr "Average taken by Articles"
+
+#~ msgid "Ventes Brutes"
+#~ msgstr "Gross Sales"
+
+#~ msgid "Remises (%)"
+#~ msgstr "Discounts (%)"
+
+#~ msgid "Remises Fixes"
+#~ msgstr "Fixed discounts"
+
+#~ msgid "Ventes Nettes"
+#~ msgstr "Net sales"
+
+#~ msgid "Revenus"
+#~ msgstr "Incomes"
+
+#~ msgid "Ventes et Pertes &mdash; %s"
+#~ msgstr "Sales and Profit &mdash; %s"
+
+#~ msgid "Ventes et pertes"
+#~ msgstr "Sales and Lost"
+
+#~ msgid "Rapport des revenus et des pertes"
+#~ msgstr "Incomes and Losses Report"
+
+#~ msgid "Détails du produit"
+#~ msgstr "Product Details"
+
+#~ msgid "Prix de vente Brut"
+#~ msgstr "Gross Sale Price"
+
+#~ msgid "Prix de vente Net"
+#~ msgstr "Net selling price"
+
+#~ msgid "Ventes"
+#~ msgstr "Sales"
+
+#~ msgid "Coûts"
+#~ msgstr "Costs"
+
+#~ msgid "Ventes et Pertes &mdash; NexoPOS"
+#~ msgstr "Sales and Profit &mdash; NexoPOS"
+
+#~ msgid "Listing des dépenses &mdash; NexoPOS"
+#~ msgstr "Expenses Listings &mdash; NexoPOS"
+
+#~ msgid "You must select a valid date"
+#~ msgstr "You must select the date was valid"
+
+#, fuzzy
+#~ msgid "Nouvelle facture"
+#~ msgstr "New Invoice"
+
+#, fuzzy
+#~ msgid "Clear cache"
+#~ msgstr "Clear cache"
+
+#, fuzzy
+#~ msgid "Liste des factures &mdash; Nexo"
+#~ msgstr "List invoices &mdash; Nexo"
+
+#, fuzzy
+#~ msgid "Ajouter/modifier une facture &mdash; Nexo"
+#~ msgstr "Add/Edit an invoice &mdash; Nexo"
+
+#~ msgid "Liste des sauvegardes &mdash; Nexo"
+#~ msgstr "Backup list - Nexo"
+
+#~ msgid "Ajouter une sauvegarde &mdash; Nexo"
+#~ msgstr "Add a backup &mdash; Nexo"
+
+#~ msgid "Edition une sauvegarde &mdash; Nexo"
+#~ msgstr "Editing a backup &mdash; Nexo"
+
+#~ msgid "Rapports & Statistiques"
+#~ msgstr "Reports"
+
+#, fuzzy
+#~ msgid "Chiffre d'affaire journalier (Commandes Cash + Commandes Avance)"
+#~ msgstr "Daily turnover (commands Cash + commands advance)"
+
+#, fuzzy
+#~ msgid "Chiffre d'affaire à recouvrer (Créances)"
+#~ msgstr "Turnover to recover (claims)"
+
+#~ msgid "Ajouter/modifier une sauvegarde &mdash; Nexo"
+#~ msgstr "Add / edit backup - Nexo"
+
+#~ msgid "Affiche les ventes réalisées par un client par mois"
+#~ msgstr "Displays sales from a customer per month"
+
+#, fuzzy
+#~ msgid "Recettes cummulées"
+#~ msgstr "Revenue accumulated"
+
+#, fuzzy
+#~ msgid "Dépense cumulées"
+#~ msgstr "Cumulative expenditure"
+
+#, fuzzy
+#~ msgid "Solde Initiale"
+#~ msgstr "Initial balance"
+
+#, fuzzy
+#~ msgid "Rapport Journalier"
+#~ msgstr "Daily report"
+
+#, fuzzy
+#~ msgid "Fiche de suivi de stocks général"
+#~ msgstr "General inventory tracking sheet"
+
+#, fuzzy
+#~ msgid "Vous pouvez suivre l'évolution du stock de chaque collection."
+#~ msgstr "You can follow the evolution of the stock of each collection."
+
+#, fuzzy
+#~ msgid "Arrivage manquant ! "
+#~ msgstr "Missing shipment!"
+
+#, fuzzy
+#~ msgid "Vous devez selectionner un arrivage valide."
+#~ msgstr "You must select an arrival valid."
+
+#, fuzzy
+#~ msgid "Mouvement annuel de trésorerie"
+#~ msgstr "Annual cash flow"
+
+#, fuzzy
+#~ msgid "Tableau de bord"
+#~ msgstr "Your dashboard"
+
+#, fuzzy
+#~ msgid "Ignorer le cache"
+#~ msgstr "Ignore the cache"
+
+#, fuzzy
+#~ msgid "Recettes"
+#~ msgstr "Income"
+
+#, fuzzy
+#~ msgid "Recettes commulées"
+#~ msgstr "Recipes commulees"
+
+#, fuzzy
+#~ msgid "Category Niveau :"
+#~ msgstr "Category level:"

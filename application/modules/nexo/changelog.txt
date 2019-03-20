@@ -1,0 +1,67 @@
+v3.12.4
+======
+* Fixed : Supplier Route
+v3.12.3
+======
+* Fixed : Category Creation
+* Fixed : Inserting Items
+v3.11.3
+======
+* Fix : route issues
+* Fix : cache  clear issue
+v3.8.6
+======
+* Fix issue while submiting entry
+v3.8.5
+======
+* Added New receipt format
+* Fixing some bugs
+* Adding Logo on receipt
+* Fixing persistent payment for even hold order
+* Fixing renaming file your avoid some server production issues
+v3.8.3
+======
+* Fix calculator layout
+* Fix date for customers
+v3.1.5
+======
+* Fix saving order issue
+* Fix bug on POS Screen
+v3.1.2
+======
+* Fix print labels
+v2.8.3
+======
+Fix 
+	- Missing mention when VAT is enabled on multi store
+	- Currency symbol on multi store
+v2.8.2
+======
+Add
+	- Add multi store feature
+v2.4.5
+======
+- 4 new actions
+	before_nexo_email_settings
+	after_nexo_email_settings
+	before_nexo_payments_settings
+	after_nexo_payments_settings
+- New Settings UI
+v2.4.2
+======
+- Fix automatic discount feature while changing customer
+- Fix translation
+- Fix search bug with set_relation which cause ambiguous field.
+- Fix cache conflict with TendooCMS
+
+v2.2
+====
+- Introduce demo content
+- Search box
+- New settings option
+- Bug fix !
+
+v2.1
+====
+- Creating Bon_davoir table
+- Removing unused table
